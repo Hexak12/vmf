@@ -6,7 +6,9 @@
 mainly for <b>hl2, ep1, ep2 and gmod</b>
 and some crapy maps, trash mods
 
-- use <a href="https://ficool2.github.io/HammerPlusPlus-Website/download.html">Hammer++</a>
+- for creating maps <a href="https://ficool2.github.io/HammerPlusPlus-Website/download.html">Hammer++</a>
+- for decomp maps to vmf <a href="https://github.com/ata4/bspsrc">BSPSource</a>
+- for publishing maps to gmod <a href="https://github.com/WilliamVenner/gmpublisher">gmpublisher</a>
 
 ### To do:
 - make it more clean
