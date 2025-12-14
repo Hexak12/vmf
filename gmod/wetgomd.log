@@ -1,0 +1,2410 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67436 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 133 texinfos to 71
+Reduced 19 texdatas to 15 (451 bytes to 330)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  46 portalclusters
+  98 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 987
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 40
+visdatasize:942  compressed from 736
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 648810, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes                196/65535        2352/786420   ( 0.3%) 
+brushsides            2765/655350      22120/5242800  ( 0.4%) 
+planes                3270/65536       65400/1310720  ( 5.0%) 
+vertexes               836/65536       10032/786432   ( 1.3%) 
+nodes                  210/65536        6720/2097152  ( 0.3%) 
+texinfos                71/16384        5112/1179648  ( 0.4%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  483/65536       27048/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              339/65536       18984/3670016  ( 0.5%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              585/65536        1170/131072   ( 0.9%) 
+leafbrushes            306/65536         612/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3649/512000      14596/2048000  ( 0.7%) 
+edges                 2254/256000       9016/1024000  ( 0.9%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           372/65536         744/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      633256/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         942/16777216 ( 0.0%) 
+entdata               [variable]        6812/4194304  ( 0.2%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient       714/65536       19992/1835008  ( 1.1%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50241/0        ( 0.0%) 
+physics               [variable]       67436/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1312
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67431 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 142 texinfos to 79
+Reduced 22 texdatas to 16 (524 bytes to 323)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  46 portalclusters
+  98 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 987
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 40
+visdatasize:942  compressed from 736
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 661284, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes                196/65535        2352/786420   ( 0.3%) 
+brushsides            2765/655350      22120/5242800  ( 0.4%) 
+planes                3270/65536       65400/1310720  ( 5.0%) 
+vertexes               836/65536       10032/786432   ( 1.3%) 
+nodes                  210/65536        6720/2097152  ( 0.3%) 
+texinfos                79/16384        5688/1179648  ( 0.5%) 
+texdata                 16/8192          512/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  499/65536       27944/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              355/65536       19880/3670016  ( 0.5%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              601/65536        1202/131072   ( 0.9%) 
+leafbrushes            306/65536         612/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3793/512000      15172/2048000  ( 0.7%) 
+edges                 2326/256000       9304/1024000  ( 0.9%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           372/65536         744/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      638752/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         942/16777216 ( 0.0%) 
+entdata               [variable]        6812/4194304  ( 0.2%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient       716/65536       20048/1835008  ( 1.1%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50813/0        ( 0.0%) 
+physics               [variable]       67431/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1352
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (68066 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 142 texinfos to 79
+Reduced 21 texdatas to 14 (510 bytes to 279)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  48 portalclusters
+  99 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 2 visible clusters (0.19%)
+Total clusters visible: 1076
+Average clusters visible: 22
+Building PAS...
+Average clusters audible: 42
+visdatasize:984  compressed from 768
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 659876, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes                197/65535        2364/786420   ( 0.3%) 
+brushsides            2771/655350      22168/5242800  ( 0.4%) 
+planes                3274/65536       65480/1310720  ( 5.0%) 
+vertexes               842/65536       10104/786432   ( 1.3%) 
+nodes                  217/65536        6944/2097152  ( 0.3%) 
+texinfos                79/16384        5688/1179648  ( 0.5%) 
+texdata                 14/8192          448/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  508/65536       28448/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              357/65536       19992/3670016  ( 0.5%) 
+leaves                 229/65536        7328/2097152  ( 0.3%) 
+leaffaces              612/65536        1224/131072   ( 0.9%) 
+leafbrushes            320/65536         640/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3835/512000      15340/2048000  ( 0.7%) 
+edges                 2352/256000       9408/1024000  ( 0.9%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           372/65536         744/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      635796/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         984/16777216 ( 0.0%) 
+entdata               [variable]        6812/4194304  ( 0.2%) 
+LDR ambient table      229/65536         916/262144   ( 0.3%) 
+HDR ambient table      229/65536         916/262144   ( 0.3%) 
+LDR leaf ambient       748/65536       20944/1835008  ( 1.1%) 
+HDR leaf ambient       229/65536        6412/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       51069/0        ( 0.0%) 
+physics               [variable]       68066/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1368
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (68066 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 142 texinfos to 79
+Reduced 21 texdatas to 14 (510 bytes to 279)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  48 portalclusters
+  99 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 2 visible clusters (0.19%)
+Total clusters visible: 1076
+Average clusters visible: 22
+Building PAS...
+Average clusters audible: 42
+visdatasize:984  compressed from 768
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 659876, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes                197/65535        2364/786420   ( 0.3%) 
+brushsides            2771/655350      22168/5242800  ( 0.4%) 
+planes                3274/65536       65480/1310720  ( 5.0%) 
+vertexes               842/65536       10104/786432   ( 1.3%) 
+nodes                  217/65536        6944/2097152  ( 0.3%) 
+texinfos                79/16384        5688/1179648  ( 0.5%) 
+texdata                 14/8192          448/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  508/65536       28448/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              357/65536       19992/3670016  ( 0.5%) 
+leaves                 229/65536        7328/2097152  ( 0.3%) 
+leaffaces              612/65536        1224/131072   ( 0.9%) 
+leafbrushes            320/65536         640/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3835/512000      15340/2048000  ( 0.7%) 
+edges                 2352/256000       9408/1024000  ( 0.9%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           372/65536         744/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      635796/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         984/16777216 ( 0.0%) 
+entdata               [variable]        6846/4194304  ( 0.2%) 
+LDR ambient table      229/65536         916/262144   ( 0.3%) 
+HDR ambient table      229/65536         916/262144   ( 0.3%) 
+LDR leaf ambient       748/65536       20944/1835008  ( 1.1%) 
+HDR leaf ambient       229/65536        6412/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       51069/0        ( 0.0%) 
+physics               [variable]       68066/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1368
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67431 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 134 texinfos to 71
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  46 portalclusters
+  98 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 987
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 40
+visdatasize:942  compressed from 736
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 648810, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes                196/65535        2352/786420   ( 0.3%) 
+brushsides            2765/655350      22120/5242800  ( 0.4%) 
+planes                3270/65536       65400/1310720  ( 5.0%) 
+vertexes               836/65536       10032/786432   ( 1.3%) 
+nodes                  210/65536        6720/2097152  ( 0.3%) 
+texinfos                71/16384        5112/1179648  ( 0.4%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  483/65536       27048/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              339/65536       18984/3670016  ( 0.5%) 
+leaves                 222/65536        7104/2097152  ( 0.3%) 
+leaffaces              585/65536        1170/131072   ( 0.9%) 
+leafbrushes            306/65536         612/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3649/512000      14596/2048000  ( 0.7%) 
+edges                 2254/256000       9016/1024000  ( 0.9%) 
+LDR worldlights          7/8192          616/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             28/32768         280/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           372/65536         744/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      633256/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         942/16777216 ( 0.0%) 
+entdata               [variable]        6846/4194304  ( 0.2%) 
+LDR ambient table      222/65536         888/262144   ( 0.3%) 
+HDR ambient table      222/65536         888/262144   ( 0.3%) 
+LDR leaf ambient       716/65536       20048/1835008  ( 1.1%) 
+HDR leaf ambient       222/65536        6216/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       67431/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1312
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (68367 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 74
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  49 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.29%)
+Total clusters visible: 1040
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 39
+visdatasize:1115  compressed from 784
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1050232, max 313
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0011 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/4096          528/196608   ( 0.3%) 
+brushes                199/65535        2388/786420   ( 0.3%) 
+brushsides            2783/655350      22264/5242800  ( 0.4%) 
+planes                3270/65536       65400/1310720  ( 5.0%) 
+vertexes               865/65536       10380/786432   ( 1.3%) 
+nodes                  213/65536        6816/2097152  ( 0.3%) 
+texinfos                74/16384        5328/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  502/65536       28112/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              343/65536       19208/3670016  ( 0.5%) 
+leaves                 225/65536        7200/2097152  ( 0.3%) 
+leaffaces              583/65536        1166/131072   ( 0.9%) 
+leafbrushes            316/65536         632/131072   ( 0.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             3763/512000      15052/2048000  ( 0.7%) 
+edges                 2310/256000       9240/1024000  ( 0.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             30/32768         300/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           423/65536         846/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      859332/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1115/16777216 ( 0.0%) 
+entdata               [variable]        7159/4194304  ( 0.2%) 
+LDR ambient table      225/65536         900/262144   ( 0.3%) 
+HDR ambient table      225/65536         900/262144   ( 0.3%) 
+LDR leaf ambient       758/65536       21224/1835008  ( 1.2%) 
+HDR leaf ambient       225/65536        6300/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       68367/4194304  ( 1.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1372
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71017 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354865, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3280/65536       65600/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7933/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       789/65536       22092/1835008  ( 1.2%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71017/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71017 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354865, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3280/65536       65600/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       789/65536       22092/1835008  ( 1.2%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71017/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71017 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354865, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3280/65536       65600/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       789/65536       22092/1835008  ( 1.2%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71017/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71017 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354865, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3280/65536       65600/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       789/65536       22092/1835008  ( 1.2%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71017/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71018 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354881, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3282/65536       65640/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       848/65536       23744/1835008  ( 1.3%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71018/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71018 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354825, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3282/65536       65640/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       849/65536       23772/1835008  ( 1.3%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71018/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71018 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354825, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3282/65536       65640/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       849/65536       23772/1835008  ( 1.3%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71018/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71018 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354851, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3282/65536       65640/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       849/65536       23772/1835008  ( 1.3%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71018/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\wetgomd.vmf
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.prt...
+Building visibility clusters...
+done (0)
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+error: material DE_NUKE/NUKWATER_MOVINGPLANE_BENEATH doesn't have a $bottommaterial
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (71018 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 151 texinfos to 81
+Reduced 21 texdatas to 15 (555 bytes to 316)
+Writing C:\Users\zdrow\Documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+reading c:\users\zdrow\documents\vmf\gmod\wetgomd.prt
+  51 portalclusters
+ 102 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 3 visible clusters (0.30%)
+Total clusters visible: 1012
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 36
+visdatasize:1185  compressed from 816
+writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1354851, max 314
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 4 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                206/65535        2472/786420   ( 0.3%) 
+brushsides            2825/655350      22600/5242800  ( 0.4%) 
+planes                3282/65536       65640/1310720  ( 5.0%) 
+vertexes               904/65536       10848/786432   ( 1.4%) 
+nodes                  225/65536        7200/2097152  ( 0.3%) 
+texinfos                81/16384        5832/1179648  ( 0.5%) 
+texdata                 15/8192          480/262144   ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  530/65536       29680/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              354/65536       19824/3670016  ( 0.5%) 
+leaves                 238/65536        7616/2097152  ( 0.4%) 
+leaffaces              639/65536        1278/131072   ( 1.0%) 
+leafbrushes            326/65536         652/131072   ( 0.5%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges             3933/512000      15732/2048000  ( 0.8%) 
+edges                 2393/256000       9572/1024000  ( 0.9%) 
+LDR worldlights          9/8192          792/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips             32/32768         320/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     1096732/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1185/16777216 ( 0.0%) 
+entdata               [variable]        7931/4194304  ( 0.2%) 
+LDR ambient table      238/65536         952/262144   ( 0.4%) 
+HDR ambient table      238/65536         952/262144   ( 0.4%) 
+LDR leaf ambient       849/65536       23772/1835008  ( 1.3%) 
+HDR leaf ambient       238/65536        6664/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]         288/0        ( 0.0%) 
+static prop count        2/16384           0/0        ( 0.0%) 
+pakfile               [variable]       50927/0        ( 0.0%) 
+physics               [variable]       71018/4194304  ( 1.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1442
+Writing c:\users\zdrow\documents\vmf\gmod\wetgomd.bsp
+0 seconds elapsed
+

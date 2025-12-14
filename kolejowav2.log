@@ -1,0 +1,1106 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (910550 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 606 texinfos to 285
+Reduced 46 texdatas to 37 (1211 bytes to 1011)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 470 portalclusters
+1691 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (910550 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 606 texinfos to 285
+Reduced 46 texdatas to 37 (1211 bytes to 1011)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 466 portalclusters
+1677 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 402 visible clusters (0.29%)
+Total clusters visible: 140726
+Average clusters visible: 301
+Building PAS...
+Average clusters audible: 459
+visdatasize:56605  compressed from 59648
+writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1 minute, 7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1630 faces
+374751 square feet [53964212.00 square inches]
+14 Displacements
+80137 Square Feet [11539753.00 Square Inches]
+1630 patches before subdivision
+39946 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-760 160 264) has outer angle larger than 90 degrees! Clamping to 90...
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2948250, max 449
+transfer lists:  22.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1823, 1537, 710)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(214, 154, 51)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(23, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0077 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+40 of 40 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                305/16384        3660/196608   ( 1.9%) 
+brushsides            2476/65536       19808/524288   ( 3.8%) 
+planes                2042/65536       40840/1310720  ( 3.1%) 
+vertexes              2986/65536       35832/786432   ( 4.6%) 
+nodes                  743/65536       23776/2097152  ( 1.1%) 
+texinfos               285/16384       20520/1179648  ( 1.7%) 
+texdata                 37/8096         1184/259072   ( 0.5%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_lmsamples      218222/0          218222/0        ( 0.0%) 
+faces                 1630/65536       91280/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              960/65536       53760/3670016  ( 1.5%) 
+leaves                 747/65536       23904/2097152  ( 1.1%) 
+leaffaces             2795/65536        5590/131072   ( 4.3%) 
+leafbrushes           1013/65536        2026/131072   ( 1.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11710/512000      46840/2048000  ( 2.3%) 
+edges                 7077/256000      28308/1024000  ( 2.8%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            240/32768        2400/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4485/65536        8970/131072   ( 6.8%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     2283012/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       56605/16777216 ( 0.3%) 
+entdata               [variable]       18073/393216   ( 4.6%) 
+LDR ambient table      747/65536        2988/262144   ( 1.1%) 
+HDR ambient table      747/65536        2988/262144   ( 1.1%) 
+LDR leaf ambient      1345/65536       37660/1835008  ( 2.1%) 
+HDR leaf ambient       747/65536       20916/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12684    ( 0.0%) 
+pakfile               [variable]      213663/0        ( 0.0%) 
+physics               [variable]      910550/4194304  (21.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4563
+Writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (910550 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 608 texinfos to 286
+Reduced 46 texdatas to 37 (1211 bytes to 1011)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 480 portalclusters
+1741 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6741 visible clusters (3.38%)
+Total clusters visible: 199249
+Average clusters visible: 415
+Building PAS...
+Average clusters audible: 478
+visdatasize:61056  compressed from 61440
+writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1635 faces
+374759 square feet [53965416.00 square inches]
+14 Displacements
+80137 Square Feet [11539753.00 Square Inches]
+1635 patches before subdivision
+1635 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-760 160 264) has outer angle larger than 90 degrees! Clamping to 90...
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 91796, max 322
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(203, 175, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18, 13, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0074 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+40 of 40 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                305/16384        3660/196608   ( 1.9%) 
+brushsides            2476/65536       19808/524288   ( 3.8%) 
+planes                2044/65536       40880/1310720  ( 3.1%) 
+vertexes              3002/65536       36024/786432   ( 4.6%) 
+nodes                  756/65536       24192/2097152  ( 1.2%) 
+texinfos               286/16384       20592/1179648  ( 1.7%) 
+texdata                 37/8096         1184/259072   ( 0.5%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_lmsamples      218222/0          218222/0        ( 0.0%) 
+faces                 1635/65536       91560/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              960/65536       53760/3670016  ( 1.5%) 
+leaves                 760/65536       24320/2097152  ( 1.2%) 
+leaffaces             2806/65536        5612/131072   ( 4.3%) 
+leafbrushes           1018/65536        2036/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11741/512000      46964/2048000  ( 2.3%) 
+edges                 7100/256000      28400/1024000  ( 2.8%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4542/65536        9084/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     2284544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61056/16777216 ( 0.4%) 
+entdata               [variable]       18073/393216   ( 4.6%) 
+LDR ambient table      760/65536        3040/262144   ( 1.2%) 
+HDR ambient table      760/65536        3040/262144   ( 1.2%) 
+LDR leaf ambient      1336/65536       37408/1835008  ( 2.0%) 
+HDR leaf ambient       760/65536       21280/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12684    ( 0.0%) 
+pakfile               [variable]      213663/0        ( 0.0%) 
+physics               [variable]      910550/4194304  (21.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4584
+Writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (911105 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 611 texinfos to 289
+Reduced 47 texdatas to 38 (1230 bytes to 1030)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 480 portalclusters
+1741 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6741 visible clusters (3.38%)
+Total clusters visible: 199249
+Average clusters visible: 415
+Building PAS...
+Average clusters audible: 478
+visdatasize:61056  compressed from 61440
+writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1641 faces
+375957 square feet [54137896.00 square inches]
+14 Displacements
+80137 Square Feet [11539753.00 Square Inches]
+1641 patches before subdivision
+1641 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-760 160 264) has outer angle larger than 90 degrees! Clamping to 90...
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 92175, max 322
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(203, 175, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18, 13, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0081 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+40 of 40 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/2048          192/98304    ( 0.2%) 
+brushes                306/16384        3672/196608   ( 1.9%) 
+brushsides            2482/65536       19856/524288   ( 3.8%) 
+planes                2052/65536       41040/1310720  ( 3.1%) 
+vertexes              3010/65536       36120/786432   ( 4.6%) 
+nodes                  762/65536       24384/2097152  ( 1.2%) 
+texinfos               289/16384       20808/1179648  ( 1.8%) 
+texdata                 38/8096         1216/259072   ( 0.5%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_lmsamples      218222/0          218222/0        ( 0.0%) 
+faces                 1641/65536       91896/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              966/65536       54096/3670016  ( 1.5%) 
+leaves                 767/65536       24544/2097152  ( 1.2%) 
+leaffaces             2812/65536        5624/131072   ( 4.3%) 
+leafbrushes           1019/65536        2038/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11789/512000      47156/2048000  ( 2.3%) 
+edges                 7124/256000      28496/1024000  ( 2.8%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4542/65536        9084/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     2284544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61056/16777216 ( 0.4%) 
+entdata               [variable]       18192/393216   ( 4.6%) 
+LDR ambient table      767/65536        3068/262144   ( 1.2%) 
+HDR ambient table      767/65536        3068/262144   ( 1.2%) 
+LDR leaf ambient      1342/65536       37576/1835008  ( 2.0%) 
+HDR leaf ambient       767/65536       21476/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12684    ( 0.0%) 
+pakfile               [variable]      213663/0        ( 0.0%) 
+physics               [variable]      911105/4194304  (21.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4596
+Writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (911105 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 614 texinfos to 289
+Reduced 47 texdatas to 38 (1230 bytes to 1030)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 480 portalclusters
+1741 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6741 visible clusters (3.38%)
+Total clusters visible: 199249
+Average clusters visible: 415
+Building PAS...
+Average clusters audible: 478
+visdatasize:61056  compressed from 61440
+writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1641 faces
+375957 square feet [54137896.00 square inches]
+14 Displacements
+80137 Square Feet [11539753.00 Square Inches]
+1641 patches before subdivision
+1641 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-760 160 264) has outer angle larger than 90 degrees! Clamping to 90...
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 92175, max 322
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(203, 175, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18, 13, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0073 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+40 of 40 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/2048          192/98304    ( 0.2%) 
+brushes                306/16384        3672/196608   ( 1.9%) 
+brushsides            2482/65536       19856/524288   ( 3.8%) 
+planes                2062/65536       41240/1310720  ( 3.1%) 
+vertexes              3010/65536       36120/786432   ( 4.6%) 
+nodes                  762/65536       24384/2097152  ( 1.2%) 
+texinfos               289/16384       20808/1179648  ( 1.8%) 
+texdata                 38/8096         1216/259072   ( 0.5%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_lmsamples      218222/0          218222/0        ( 0.0%) 
+faces                 1641/65536       91896/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              966/65536       54096/3670016  ( 1.5%) 
+leaves                 767/65536       24544/2097152  ( 1.2%) 
+leaffaces             2812/65536        5624/131072   ( 4.3%) 
+leafbrushes           1019/65536        2038/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11789/512000      47156/2048000  ( 2.3%) 
+edges                 7124/256000      28496/1024000  ( 2.8%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4542/65536        9084/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     2284544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61056/16777216 ( 0.4%) 
+entdata               [variable]       18378/393216   ( 4.7%) 
+LDR ambient table      767/65536        3068/262144   ( 1.2%) 
+HDR ambient table      767/65536        3068/262144   ( 1.2%) 
+LDR leaf ambient      1359/65536       38052/1835008  ( 2.1%) 
+HDR leaf ambient       767/65536       21476/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12684    ( 0.0%) 
+pakfile               [variable]      213663/0        ( 0.0%) 
+physics               [variable]      911105/4194304  (21.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4596
+Writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (911105 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 614 texinfos to 289
+Reduced 47 texdatas to 38 (1230 bytes to 1030)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 480 portalclusters
+1741 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8..
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (911105 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 614 texinfos to 289
+Reduced 47 texdatas to 38 (1230 bytes to 1030)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 480 portalclusters
+1741 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6741 visible clusters (3.38%)
+Total clusters visible: 199249
+Average clusters visible: 415
+Building PAS...
+Average clusters audible: 478
+visdatasize:61056  compressed from 61440
+writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1641 faces
+375957 square feet [54137896.00 square inches]
+14 Displacements
+80137 Square Feet [11539753.00 Square Inches]
+1641 patches before subdivision
+1641 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-760 160 264) has outer angle larger than 90 degrees! Clamping to 90...
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 92175, max 322
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(203, 175, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18, 13, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0074 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+40 of 40 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/2048          192/98304    ( 0.2%) 
+brushes                306/16384        3672/196608   ( 1.9%) 
+brushsides            2482/65536       19856/524288   ( 3.8%) 
+planes                2062/65536       41240/1310720  ( 3.1%) 
+vertexes              3010/65536       36120/786432   ( 4.6%) 
+nodes                  762/65536       24384/2097152  ( 1.2%) 
+texinfos               289/16384       20808/1179648  ( 1.8%) 
+texdata                 38/8096         1216/259072   ( 0.5%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_lmsamples      218222/0          218222/0        ( 0.0%) 
+faces                 1641/65536       91896/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              966/65536       54096/3670016  ( 1.5%) 
+leaves                 767/65536       24544/2097152  ( 1.2%) 
+leaffaces             2812/65536        5624/131072   ( 4.3%) 
+leafbrushes           1019/65536        2038/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11789/512000      47156/2048000  ( 2.3%) 
+edges                 7124/256000      28496/1024000  ( 2.8%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4542/65536        9084/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     2284544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61056/16777216 ( 0.4%) 
+entdata               [variable]       18378/393216   ( 4.7%) 
+LDR ambient table      767/65536        3068/262144   ( 1.2%) 
+HDR ambient table      767/65536        3068/262144   ( 1.2%) 
+LDR leaf ambient      1359/65536       38052/1835008  ( 2.1%) 
+HDR leaf ambient       767/65536       21476/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12684    ( 0.0%) 
+pakfile               [variable]      213663/0        ( 0.0%) 
+physics               [variable]      911105/4194304  (21.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4596
+Writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (912210 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 626 texinfos to 289
+Reduced 48 texdatas to 38 (1253 bytes to 1030)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 480 portalclusters
+1741 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6741 visible clusters (3.38%)
+Total clusters visible: 199249
+Average clusters visible: 415
+Building PAS...
+Average clusters audible: 478
+visdatasize:61056  compressed from 61440
+writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1641 faces
+377536 square feet [54365224.00 square inches]
+14 Displacements
+80137 Square Feet [11539753.00 Square Inches]
+1641 patches before subdivision
+1641 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-760 160 264) has outer angle larger than 90 degrees! Clamping to 90...
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 92192, max 322
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(204, 175, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18, 13, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0073 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+40 of 40 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/2048          288/98304    ( 0.3%) 
+brushes                308/16384        3696/196608   ( 1.9%) 
+brushsides            2517/65536       20136/524288   ( 3.8%) 
+planes                2174/65536       43480/1310720  ( 3.3%) 
+vertexes              3026/65536       36312/786432   ( 4.6%) 
+nodes                  774/65536       24768/2097152  ( 1.2%) 
+texinfos               289/16384       20808/1179648  ( 1.8%) 
+texdata                 38/8096         1216/259072   ( 0.5%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_lmsamples      218222/0          218222/0        ( 0.0%) 
+faces                 1641/65536       91896/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              966/65536       54096/3670016  ( 1.5%) 
+leaves                 781/65536       24992/2097152  ( 1.2%) 
+leaffaces             2812/65536        5624/131072   ( 4.3%) 
+leafbrushes           1021/65536        2042/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11789/512000      47156/2048000  ( 2.3%) 
+edges                 7124/256000      28496/1024000  ( 2.8%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4542/65536        9084/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     2284544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61056/16777216 ( 0.4%) 
+entdata               [variable]       19640/393216   ( 5.0%) 
+LDR ambient table      781/65536        3124/262144   ( 1.2%) 
+HDR ambient table      781/65536        3124/262144   ( 1.2%) 
+LDR leaf ambient      1375/65536       38500/1835008  ( 2.1%) 
+HDR leaf ambient       781/65536       21868/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12684    ( 0.0%) 
+pakfile               [variable]      213663/0        ( 0.0%) 
+physics               [variable]      912210/4194304  (21.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4596
+Writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\kolejowav2.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/kolejowav2/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\kolejowav2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (912210 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 626 texinfos to 289
+Reduced 48 texdatas to 38 (1253 bytes to 1030)
+Writing C:\Users\zdrow\Documents\vmf\kolejowav2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+reading c:\users\zdrow\documents\vmf\kolejowav2.prt
+ 480 portalclusters
+1741 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6741 visible clusters (3.38%)
+Total clusters visible: 199249
+Average clusters visible: 415
+Building PAS...
+Average clusters audible: 478
+visdatasize:61056  compressed from 61440
+writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\kolejowav2.bsp
+1641 faces
+377536 square feet [54365224.00 square inches]
+14 Displacements
+80137 Square Feet [11539753.00 Square Inches]
+1641 patches before subdivision
+1641 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-760 160 264) has outer angle larger than 90 degrees! Clamping to 90...
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 92192, max 322
+transfer lists:   0.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(204, 175, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18, 13, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+40 of 40 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/2048          288/98304    ( 0.3%) 
+brushes                308/16384        3696/196608   ( 1.9%) 
+brushsides            2517/65536       20136/524288   ( 3.8%) 
+planes                2174/65536       43480/1310720  ( 3.3%) 
+vertexes              3026/65536       36312/786432   ( 4.6%) 
+nodes                  774/65536       24768/2097152  ( 1.2%) 
+texinfos               289/16384       20808/1179648  ( 1.8%) 
+texdata                 38/8096         1216/259072   ( 0.5%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            4046/0           80920/0        ( 0.0%) 
+disp_tris             7168/0           14336/0        ( 0.0%) 
+disp_lmsamples      218222/0          218222/0        ( 0.0%) 
+faces                 1641/65536       91896/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              966/65536       54096/3670016  ( 1.5%) 
+leaves                 781/65536       24992/2097152  ( 1.2%) 
+leaffaces             2812/65536        5624/131072   ( 4.3%) 
+leafbrushes           1021/65536        2042/131072   ( 1.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11789/512000      47156/2048000  ( 2.3%) 
+edges                 7124/256000      28496/1024000  ( 2.8%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            244/32768        2440/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4542/65536        9084/131072   ( 6.9%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     2284544/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       61056/16777216 ( 0.4%) 
+entdata               [variable]       19640/393216   ( 5.0%) 
+LDR ambient table      781/65536        3124/262144   ( 1.2%) 
+HDR ambient table      781/65536        3124/262144   ( 1.2%) 
+LDR leaf ambient      1375/65536       38500/1835008  ( 2.1%) 
+HDR leaf ambient       781/65536       21868/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12684    ( 0.0%) 
+pakfile               [variable]      213663/0        ( 0.0%) 
+physics               [variable]      912210/4194304  (21.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4596
+Writing c:\users\zdrow\documents\vmf\kolejowav2.bsp
+2 seconds elapsed

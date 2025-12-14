@@ -1,0 +1,974 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\vmf\gownoonight.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/gownoonight/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\vmf\gownoonight.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (195078 bytes)
+Error loading studio model "models/props/cs_office/light_security.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 373 texinfos to 196
+Reduced 41 texdatas to 32 (1085 bytes to 854)
+Writing C:\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\vmf\gownoonight.bsp
+reading c:\vmf\gownoonight.prt
+ 179 portalclusters
+ 554 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 43 visible clusters (0.23%)
+Total clusters visible: 19058
+Average clusters visible: 106
+Building PAS...
+Average clusters audible: 178
+visdatasize:9497  compressed from 8592
+writing c:\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\vmf\gownoonight.bsp
+1102 faces
+80556 square feet [11600097.00 square inches]
+2 Displacements
+11592 Square Feet [1669301.88 Square Inches]
+1102 patches before subdivision
+19976 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1989382, max 440
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1088, 946, 440)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(131, 93, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0030 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                222/16384        2664/196608   ( 1.4%) 
+brushsides            1697/65536       13576/524288   ( 2.6%) 
+planes                1292/65536       25840/1310720  ( 2.0%) 
+vertexes              1913/65536       22956/786432   ( 2.9%) 
+nodes                  325/65536       10400/2097152  ( 0.5%) 
+texinfos               196/16384       14112/1179648  ( 1.2%) 
+texdata                 32/8096         1024/259072   ( 0.4%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       31546/0           31546/0        ( 0.0%) 
+faces                 1102/65536       61712/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              748/65536       41888/3670016  ( 1.1%) 
+leaves                 329/65536       10528/2097152  ( 0.5%) 
+leaffaces             2123/65536        4246/131072   ( 3.2%) 
+leafbrushes            562/65536        1124/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8393/512000      33572/2048000  ( 1.6%) 
+edges                 4965/256000      19860/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            114/32768        1140/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2178/65536        4356/131072   ( 3.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1687240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9497/16777216 ( 0.1%) 
+entdata               [variable]        4242/393216   ( 1.1%) 
+LDR ambient table      329/65536        1316/262144   ( 0.5%) 
+HDR ambient table      329/65536        1316/262144   ( 0.5%) 
+LDR leaf ambient       838/65536       23464/1835008  ( 1.3%) 
+HDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10898    ( 0.0%) 
+pakfile               [variable]      213349/0        ( 0.0%) 
+physics               [variable]      195078/4194304  ( 4.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3196
+Writing c:\vmf\gownoonight.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\gownoonight.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/gownoonight/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gownoonight.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (195078 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 373 texinfos to 196
+Reduced 41 texdatas to 32 (1085 bytes to 854)
+Writing C:\Users\zdrow\Documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gownoonight.bsp
+reading c:\users\zdrow\documents\vmf\gownoonight.prt
+ 179 portalclusters
+ 554 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 43 visible clusters (0.23%)
+Total clusters visible: 19058
+Average clusters visible: 106
+Building PAS...
+Average clusters audible: 178
+visdatasize:9497  compressed from 8592
+writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\gownoonight.bsp
+1102 faces
+80556 square feet [11600097.00 square inches]
+2 Displacements
+11592 Square Feet [1669301.88 Square Inches]
+1102 patches before subdivision
+19976 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1989382, max 440
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1088, 946, 440)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(131, 93, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                222/16384        2664/196608   ( 1.4%) 
+brushsides            1697/65536       13576/524288   ( 2.6%) 
+planes                1292/65536       25840/1310720  ( 2.0%) 
+vertexes              1913/65536       22956/786432   ( 2.9%) 
+nodes                  325/65536       10400/2097152  ( 0.5%) 
+texinfos               196/16384       14112/1179648  ( 1.2%) 
+texdata                 32/8096         1024/259072   ( 0.4%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       31546/0           31546/0        ( 0.0%) 
+faces                 1102/65536       61712/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              748/65536       41888/3670016  ( 1.1%) 
+leaves                 329/65536       10528/2097152  ( 0.5%) 
+leaffaces             2123/65536        4246/131072   ( 3.2%) 
+leafbrushes            562/65536        1124/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8393/512000      33572/2048000  ( 1.6%) 
+edges                 4965/256000      19860/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            114/32768        1140/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2178/65536        4356/131072   ( 3.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1687240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9497/16777216 ( 0.1%) 
+entdata               [variable]        4242/393216   ( 1.1%) 
+LDR ambient table      329/65536        1316/262144   ( 0.5%) 
+HDR ambient table      329/65536        1316/262144   ( 0.5%) 
+LDR leaf ambient       838/65536       23464/1835008  ( 1.3%) 
+HDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11092    ( 0.0%) 
+pakfile               [variable]      213349/0        ( 0.0%) 
+physics               [variable]      195078/4194304  ( 4.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3196
+Writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\gownoonight.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/gownoonight/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gownoonight.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (195078 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 373 texinfos to 196
+Reduced 41 texdatas to 32 (1085 bytes to 854)
+Writing C:\Users\zdrow\Documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gownoonight.bsp
+reading c:\users\zdrow\documents\vmf\gownoonight.prt
+ 179 portalclusters
+ 554 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 43 visible clusters (0.23%)
+Total clusters visible: 19058
+Average clusters visible: 106
+Building PAS...
+Average clusters audible: 178
+visdatasize:9497  compressed from 8592
+writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\gownoonight.bsp
+1102 faces
+80556 square feet [11600097.00 square inches]
+2 Displacements
+11592 Square Feet [1669301.88 Square Inches]
+1102 patches before subdivision
+19976 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1989382, max 440
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1088, 946, 440)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(131, 93, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                222/16384        2664/196608   ( 1.4%) 
+brushsides            1697/65536       13576/524288   ( 2.6%) 
+planes                1292/65536       25840/1310720  ( 2.0%) 
+vertexes              1913/65536       22956/786432   ( 2.9%) 
+nodes                  325/65536       10400/2097152  ( 0.5%) 
+texinfos               196/16384       14112/1179648  ( 1.2%) 
+texdata                 32/8096         1024/259072   ( 0.4%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       31546/0           31546/0        ( 0.0%) 
+faces                 1102/65536       61712/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              748/65536       41888/3670016  ( 1.1%) 
+leaves                 329/65536       10528/2097152  ( 0.5%) 
+leaffaces             2123/65536        4246/131072   ( 3.2%) 
+leafbrushes            562/65536        1124/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8393/512000      33572/2048000  ( 1.6%) 
+edges                 4965/256000      19860/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            114/32768        1140/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2178/65536        4356/131072   ( 3.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1687240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9497/16777216 ( 0.1%) 
+entdata               [variable]        4606/393216   ( 1.2%) 
+LDR ambient table      329/65536        1316/262144   ( 0.5%) 
+HDR ambient table      329/65536        1316/262144   ( 0.5%) 
+LDR leaf ambient       838/65536       23464/1835008  ( 1.3%) 
+HDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11092    ( 0.0%) 
+pakfile               [variable]      213349/0        ( 0.0%) 
+physics               [variable]      195078/4194304  ( 4.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3196
+Writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\gownoonight.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/gownoonight/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gownoonight.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (195078 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 373 texinfos to 196
+Reduced 41 texdatas to 32 (1085 bytes to 854)
+Writing C:\Users\zdrow\Documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gownoonight.bsp
+reading c:\users\zdrow\documents\vmf\gownoonight.prt
+ 179 portalclusters
+ 554 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 43 visible clusters (0.23%)
+Total clusters visible: 19058
+Average clusters visible: 106
+Building PAS...
+Average clusters audible: 178
+visdatasize:9497  compressed from 8592
+writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\gownoonight.bsp
+1102 faces
+80556 square feet [11600097.00 square inches]
+2 Displacements
+11592 Square Feet [1669301.88 Square Inches]
+1102 patches before subdivision
+19976 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1989382, max 440
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1088, 946, 440)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(131, 93, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                222/16384        2664/196608   ( 1.4%) 
+brushsides            1697/65536       13576/524288   ( 2.6%) 
+planes                1292/65536       25840/1310720  ( 2.0%) 
+vertexes              1913/65536       22956/786432   ( 2.9%) 
+nodes                  325/65536       10400/2097152  ( 0.5%) 
+texinfos               196/16384       14112/1179648  ( 1.2%) 
+texdata                 32/8096         1024/259072   ( 0.4%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       31546/0           31546/0        ( 0.0%) 
+faces                 1102/65536       61712/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              748/65536       41888/3670016  ( 1.1%) 
+leaves                 329/65536       10528/2097152  ( 0.5%) 
+leaffaces             2123/65536        4246/131072   ( 3.2%) 
+leafbrushes            562/65536        1124/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8393/512000      33572/2048000  ( 1.6%) 
+edges                 4965/256000      19860/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            114/32768        1140/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2178/65536        4356/131072   ( 3.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1687240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9497/16777216 ( 0.1%) 
+entdata               [variable]        4605/393216   ( 1.2%) 
+LDR ambient table      329/65536        1316/262144   ( 0.5%) 
+HDR ambient table      329/65536        1316/262144   ( 0.5%) 
+LDR leaf ambient       838/65536       23464/1835008  ( 1.3%) 
+HDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11092    ( 0.0%) 
+pakfile               [variable]      213349/0        ( 0.0%) 
+physics               [variable]      195078/4194304  ( 4.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3196
+Writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\gownoonight.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/gownoonight/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gownoonight.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (195078 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 373 texinfos to 196
+Reduced 41 texdatas to 32 (1085 bytes to 854)
+Writing C:\Users\zdrow\Documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gownoonight.bsp
+reading c:\users\zdrow\documents\vmf\gownoonight.prt
+ 179 portalclusters
+ 554 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 43 visible clusters (0.23%)
+Total clusters visible: 19058
+Average clusters visible: 106
+Building PAS...
+Average clusters audible: 178
+visdatasize:9497  compressed from 8592
+writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\gownoonight.bsp
+1102 faces
+80556 square feet [11600097.00 square inches]
+2 Displacements
+11592 Square Feet [1669301.88 Square Inches]
+1102 patches before subdivision
+19976 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1989382, max 440
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1088, 946, 440)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(131, 93, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                222/16384        2664/196608   ( 1.4%) 
+brushsides            1697/65536       13576/524288   ( 2.6%) 
+planes                1292/65536       25840/1310720  ( 2.0%) 
+vertexes              1913/65536       22956/786432   ( 2.9%) 
+nodes                  325/65536       10400/2097152  ( 0.5%) 
+texinfos               196/16384       14112/1179648  ( 1.2%) 
+texdata                 32/8096         1024/259072   ( 0.4%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       31546/0           31546/0        ( 0.0%) 
+faces                 1102/65536       61712/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              748/65536       41888/3670016  ( 1.1%) 
+leaves                 329/65536       10528/2097152  ( 0.5%) 
+leaffaces             2123/65536        4246/131072   ( 3.2%) 
+leafbrushes            562/65536        1124/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8393/512000      33572/2048000  ( 1.6%) 
+edges                 4965/256000      19860/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            114/32768        1140/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2178/65536        4356/131072   ( 3.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1687240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9497/16777216 ( 0.1%) 
+entdata               [variable]        4605/393216   ( 1.2%) 
+LDR ambient table      329/65536        1316/262144   ( 0.5%) 
+HDR ambient table      329/65536        1316/262144   ( 0.5%) 
+LDR leaf ambient       838/65536       23464/1835008  ( 1.3%) 
+HDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11092    ( 0.0%) 
+pakfile               [variable]      213349/0        ( 0.0%) 
+physics               [variable]      195078/4194304  ( 4.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3196
+Writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\gownoonight.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/gownoonight/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gownoonight.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (195078 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 373 texinfos to 196
+Reduced 41 texdatas to 32 (1085 bytes to 854)
+Writing C:\Users\zdrow\Documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gownoonight.bsp
+reading c:\users\zdrow\documents\vmf\gownoonight.prt
+ 179 portalclusters
+ 554 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 43 visible clusters (0.23%)
+Total clusters visible: 19058
+Average clusters visible: 106
+Building PAS...
+Average clusters audible: 178
+visdatasize:9497  compressed from 8592
+writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\gownoonight.bsp
+1102 faces
+80556 square feet [11600097.00 square inches]
+2 Displacements
+11592 Square Feet [1669301.88 Square Inches]
+1102 patches before subdivision
+19976 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1989382, max 440
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1088, 946, 440)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(131, 93, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                222/16384        2664/196608   ( 1.4%) 
+brushsides            1697/65536       13576/524288   ( 2.6%) 
+planes                1292/65536       25840/1310720  ( 2.0%) 
+vertexes              1913/65536       22956/786432   ( 2.9%) 
+nodes                  325/65536       10400/2097152  ( 0.5%) 
+texinfos               196/16384       14112/1179648  ( 1.2%) 
+texdata                 32/8096         1024/259072   ( 0.4%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       31546/0           31546/0        ( 0.0%) 
+faces                 1102/65536       61712/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              748/65536       41888/3670016  ( 1.1%) 
+leaves                 329/65536       10528/2097152  ( 0.5%) 
+leaffaces             2123/65536        4246/131072   ( 3.2%) 
+leafbrushes            562/65536        1124/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8393/512000      33572/2048000  ( 1.6%) 
+edges                 4965/256000      19860/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            114/32768        1140/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2178/65536        4356/131072   ( 3.3%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1687240/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9497/16777216 ( 0.1%) 
+entdata               [variable]        4967/393216   ( 1.3%) 
+LDR ambient table      329/65536        1316/262144   ( 0.5%) 
+HDR ambient table      329/65536        1316/262144   ( 0.5%) 
+LDR leaf ambient       838/65536       23464/1835008  ( 1.3%) 
+HDR leaf ambient       329/65536        9212/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11092    ( 0.0%) 
+pakfile               [variable]      213349/0        ( 0.0%) 
+physics               [variable]      195078/4194304  ( 4.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3196
+Writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\gownoonight.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/gownoonight/nature/blenddirtgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gownoonight.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (197062 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...Material NATURE/BLENDGRASSGRAVEL002A uses unknown detail object type coastline_redgrass02!
+10
+Compacting texture/material tables...
+Reduced 389 texinfos to 205
+Reduced 41 texdatas to 32 (1085 bytes to 854)
+Writing C:\Users\zdrow\Documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gownoonight.bsp
+reading c:\users\zdrow\documents\vmf\gownoonight.prt
+ 190 portalclusters
+ 581 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 50 visible clusters (0.24%)
+Total clusters visible: 20710
+Average clusters visible: 109
+Building PAS...
+Average clusters audible: 188
+visdatasize:10419  compressed from 9120
+writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\gownoonight.bsp
+1124 faces
+80580 square feet [11603549.00 square inches]
+2 Displacements
+11592 Square Feet [1669301.88 Square Inches]
+1124 patches before subdivision
+20052 patches after subdivision
+WARNING: light_spot at (376 664 495) has inner angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (376 664 495) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (-368 312 264) has outer angle larger than 90 degrees! Clamping to 90...
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2001676, max 440
+transfer lists:  15.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1105, 961, 449)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(133, 95, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(15, 9, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0030 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/2048          144/98304    ( 0.1%) 
+brushes                228/16384        2736/196608   ( 1.4%) 
+brushsides            1734/65536       13872/524288   ( 2.6%) 
+planes                1296/65536       25920/1310720  ( 2.0%) 
+vertexes              1941/65536       23292/786432   ( 3.0%) 
+nodes                  342/65536       10944/2097152  ( 0.5%) 
+texinfos               205/16384       14760/1179648  ( 1.3%) 
+texdata                 32/8096         1024/259072   ( 0.4%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             578/0           11560/0        ( 0.0%) 
+disp_tris             1024/0            2048/0        ( 0.0%) 
+disp_lmsamples       31546/0           31546/0        ( 0.0%) 
+faces                 1124/65536       62944/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              761/65536       42616/3670016  ( 1.2%) 
+leaves                 346/65536       11072/2097152  ( 0.5%) 
+leaffaces             2242/65536        4484/131072   ( 3.4%) 
+leafbrushes            619/65536        1238/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8547/512000      34188/2048000  ( 1.7%) 
+edges                 5059/256000      20236/1024000  ( 2.0%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            118/32768        1180/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2238/65536        4476/131072   ( 3.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]     1689216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       10419/16777216 ( 0.1%) 
+entdata               [variable]        4967/393216   ( 1.3%) 
+LDR ambient table      346/65536        1384/262144   ( 0.5%) 
+HDR ambient table      346/65536        1384/262144   ( 0.5%) 
+LDR leaf ambient       843/65536       23604/1835008  ( 1.3%) 
+HDR leaf ambient       346/65536        9688/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11092    ( 0.0%) 
+pakfile               [variable]      213349/0        ( 0.0%) 
+physics               [variable]      197062/4194304  ( 4.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 3254
+Writing c:\users\zdrow\documents\vmf\gownoonight.bsp
+2 seconds elapsed

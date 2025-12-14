@@ -1,0 +1,2489 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32125 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 144 texinfos to 75
+Reduced 27 texdatas to 19 (697 bytes to 402)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 237 portalclusters
+ 713 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 47511
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 208
+visdatasize:15823  compressed from 15168
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 408748, max 319
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0068 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+3 of 15 (20% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 85/65535        1020/786420   ( 0.1%) 
+brushsides            1354/655350      10832/5242800  ( 0.2%) 
+planes                2254/65536       45080/1310720  ( 3.4%) 
+vertexes              1158/65536       13896/786432   ( 1.8%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                75/16384        5400/1179648  ( 0.5%) 
+texdata                 19/8192          608/262144   ( 0.2%) 
+dispinfos              106/0           18656/0        ( 0.0%) 
+disp_verts            8362/0          167240/0        ( 0.0%) 
+disp_tris            13184/0           26368/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      502664/0          502664/0        ( 0.0%) 
+faces                  853/65536       47768/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              878/65536        1756/131072   ( 1.3%) 
+leafbrushes            433/65536         866/131072   ( 0.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5314/512000      21256/2048000  ( 1.0%) 
+edges                 2952/256000      11808/1024000  ( 1.2%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1305/65536        2610/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      701576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15823/16777216 ( 0.1%) 
+entdata               [variable]        9046/4194304  ( 0.2%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      2003/65536       56084/1835008  ( 3.1%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        6392/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]        1676/0        ( 0.0%) 
+physics               [variable]       32125/4194304  ( 0.8%) 
+physics terrain       [variable]       29462/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2132
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+4 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32125 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 144 texinfos to 75
+Reduced 27 texdatas to 19 (697 bytes to 402)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 237 portalclusters
+ 713 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 47511
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 208
+visdatasize:15823  compressed from 15168
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 408748, max 319
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+3 of 15 (20% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 85/65535        1020/786420   ( 0.1%) 
+brushsides            1354/655350      10832/5242800  ( 0.2%) 
+planes                2254/65536       45080/1310720  ( 3.4%) 
+vertexes              1158/65536       13896/786432   ( 1.8%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                75/16384        5400/1179648  ( 0.5%) 
+texdata                 19/8192          608/262144   ( 0.2%) 
+dispinfos              106/0           18656/0        ( 0.0%) 
+disp_verts            8362/0          167240/0        ( 0.0%) 
+disp_tris            13184/0           26368/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      502664/0          502664/0        ( 0.0%) 
+faces                  853/65536       47768/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              878/65536        1756/131072   ( 1.3%) 
+leafbrushes            433/65536         866/131072   ( 0.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5314/512000      21256/2048000  ( 1.0%) 
+edges                 2952/256000      11808/1024000  ( 1.2%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1305/65536        2610/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      701576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15823/16777216 ( 0.1%) 
+entdata               [variable]        9047/4194304  ( 0.2%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      2003/65536       56084/1835008  ( 3.1%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        6392/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]        1676/0        ( 0.0%) 
+physics               [variable]       32125/4194304  ( 0.8%) 
+physics terrain       [variable]       29462/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2132
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+4 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32125 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 144 texinfos to 75
+Reduced 27 texdatas to 19 (697 bytes to 402)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 237 portalclusters
+ 713 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 47511
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 208
+visdatasize:15823  compressed from 15168
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 408748, max 319
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0068 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+3 of 15 (20% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 85/65535        1020/786420   ( 0.1%) 
+brushsides            1354/655350      10832/5242800  ( 0.2%) 
+planes                2254/65536       45080/1310720  ( 3.4%) 
+vertexes              1158/65536       13896/786432   ( 1.8%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                75/16384        5400/1179648  ( 0.5%) 
+texdata                 19/8192          608/262144   ( 0.2%) 
+dispinfos              106/0           18656/0        ( 0.0%) 
+disp_verts            8362/0          167240/0        ( 0.0%) 
+disp_tris            13184/0           26368/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      502664/0          502664/0        ( 0.0%) 
+faces                  853/65536       47768/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              878/65536        1756/131072   ( 1.3%) 
+leafbrushes            433/65536         866/131072   ( 0.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5314/512000      21256/2048000  ( 1.0%) 
+edges                 2952/256000      11808/1024000  ( 1.2%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1305/65536        2610/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      701576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15823/16777216 ( 0.1%) 
+entdata               [variable]        9046/4194304  ( 0.2%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      2003/65536       56084/1835008  ( 3.1%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        6392/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]        1676/0        ( 0.0%) 
+physics               [variable]       32125/4194304  ( 0.8%) 
+physics terrain       [variable]       29462/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2132
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+4 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32125 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 144 texinfos to 75
+Reduced 27 texdatas to 19 (697 bytes to 402)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 237 portalclusters
+ 713 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 47511
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 208
+visdatasize:15823  compressed from 15168
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 408748, max 319
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+3 of 15 (20% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 85/65535        1020/786420   ( 0.1%) 
+brushsides            1354/655350      10832/5242800  ( 0.2%) 
+planes                2254/65536       45080/1310720  ( 3.4%) 
+vertexes              1158/65536       13896/786432   ( 1.8%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                75/16384        5400/1179648  ( 0.5%) 
+texdata                 19/8192          608/262144   ( 0.2%) 
+dispinfos              106/0           18656/0        ( 0.0%) 
+disp_verts            8362/0          167240/0        ( 0.0%) 
+disp_tris            13184/0           26368/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      502664/0          502664/0        ( 0.0%) 
+faces                  853/65536       47768/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              878/65536        1756/131072   ( 1.3%) 
+leafbrushes            433/65536         866/131072   ( 0.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5314/512000      21256/2048000  ( 1.0%) 
+edges                 2952/256000      11808/1024000  ( 1.2%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1305/65536        2610/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      701576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15823/16777216 ( 0.1%) 
+entdata               [variable]        9044/4194304  ( 0.2%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      2003/65536       56084/1835008  ( 3.1%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        6392/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]        1676/0        ( 0.0%) 
+physics               [variable]       32125/4194304  ( 0.8%) 
+physics terrain       [variable]       29462/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2132
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+5 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32125 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 144 texinfos to 75
+Reduced 27 texdatas to 19 (697 bytes to 402)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 237 portalclusters
+ 713 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 47511
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 208
+visdatasize:15823  compressed from 15168
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 408748, max 319
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+3 of 15 (20% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 85/65535        1020/786420   ( 0.1%) 
+brushsides            1354/655350      10832/5242800  ( 0.2%) 
+planes                2254/65536       45080/1310720  ( 3.4%) 
+vertexes              1158/65536       13896/786432   ( 1.8%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                75/16384        5400/1179648  ( 0.5%) 
+texdata                 19/8192          608/262144   ( 0.2%) 
+dispinfos              106/0           18656/0        ( 0.0%) 
+disp_verts            8362/0          167240/0        ( 0.0%) 
+disp_tris            13184/0           26368/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      502664/0          502664/0        ( 0.0%) 
+faces                  853/65536       47768/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              878/65536        1756/131072   ( 1.3%) 
+leafbrushes            433/65536         866/131072   ( 0.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5314/512000      21256/2048000  ( 1.0%) 
+edges                 2952/256000      11808/1024000  ( 1.2%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1305/65536        2610/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      701576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15823/16777216 ( 0.1%) 
+entdata               [variable]        9044/4194304  ( 0.2%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      2444/65536       68432/1835008  ( 3.7%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        6392/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]        1676/0        ( 0.0%) 
+physics               [variable]       32125/4194304  ( 0.8%) 
+physics terrain       [variable]       29462/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2132
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+5 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32125 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 144 texinfos to 75
+Reduced 27 texdatas to 19 (697 bytes to 402)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 237 portalclusters
+ 713 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 47511
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 208
+visdatasize:15823  compressed from 15168
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 408748, max 319
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+3 of 15 (20% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 85/65535        1020/786420   ( 0.1%) 
+brushsides            1354/655350      10832/5242800  ( 0.2%) 
+planes                2254/65536       45080/1310720  ( 3.4%) 
+vertexes              1158/65536       13896/786432   ( 1.8%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                75/16384        5400/1179648  ( 0.5%) 
+texdata                 19/8192          608/262144   ( 0.2%) 
+dispinfos              106/0           18656/0        ( 0.0%) 
+disp_verts            8362/0          167240/0        ( 0.0%) 
+disp_tris            13184/0           26368/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      502664/0          502664/0        ( 0.0%) 
+faces                  853/65536       47768/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              878/65536        1756/131072   ( 1.3%) 
+leafbrushes            433/65536         866/131072   ( 0.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5314/512000      21256/2048000  ( 1.0%) 
+edges                 2952/256000      11808/1024000  ( 1.2%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1305/65536        2610/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      701576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15823/16777216 ( 0.1%) 
+entdata               [variable]        9044/4194304  ( 0.2%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      2383/65536       66724/1835008  ( 3.6%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        6392/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]        1676/0        ( 0.0%) 
+physics               [variable]       32125/4194304  ( 0.8%) 
+physics terrain       [variable]       29462/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2132
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+4 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32125 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 144 texinfos to 75
+Reduced 27 texdatas to 19 (697 bytes to 402)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 237 portalclusters
+ 713 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 47511
+Average clusters visible: 200
+Building PAS...
+Average clusters audible: 208
+visdatasize:15823  compressed from 15168
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 408748, max 319
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0067 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+3 of 15 (20% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (2)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/4096          432/196608   ( 0.2%) 
+brushes                 85/65535        1020/786420   ( 0.1%) 
+brushsides            1354/655350      10832/5242800  ( 0.2%) 
+planes                2254/65536       45080/1310720  ( 3.4%) 
+vertexes              1158/65536       13896/786432   ( 1.8%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                75/16384        5400/1179648  ( 0.5%) 
+texdata                 19/8192          608/262144   ( 0.2%) 
+dispinfos              106/0           18656/0        ( 0.0%) 
+disp_verts            8362/0          167240/0        ( 0.0%) 
+disp_tris            13184/0           26368/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      502664/0          502664/0        ( 0.0%) 
+faces                  853/65536       47768/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              372/65536       20832/3670016  ( 0.6%) 
+leaves                 614/65536       19648/2097152  ( 0.9%) 
+leaffaces              878/65536        1756/131072   ( 1.3%) 
+leafbrushes            433/65536         866/131072   ( 0.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5314/512000      21256/2048000  ( 1.0%) 
+edges                 2952/256000      11808/1024000  ( 1.2%) 
+LDR worldlights         18/8192         1584/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1305/65536        2610/131072   ( 2.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      701576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       15823/16777216 ( 0.1%) 
+entdata               [variable]        9044/4194304  ( 0.2%) 
+LDR ambient table      614/65536        2456/262144   ( 0.9%) 
+HDR ambient table      614/65536        2456/262144   ( 0.9%) 
+LDR leaf ambient      2178/65536       60984/1835008  ( 3.3%) 
+HDR leaf ambient       614/65536       17192/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        6392/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]        1676/0        ( 0.0%) 
+physics               [variable]       32125/4194304  ( 0.8%) 
+physics terrain       [variable]       29462/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2132
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+5 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21163 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 96 texinfos to 49
+Reduced 20 texdatas to 13 (539 bytes to 284)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+1182 portalclusters
+2563 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5.
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21163 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 96 texinfos to 49
+Reduced 20 texdatas to 13 (539 bytes to 284)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+1182 portalclusters
+2563 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 1395770
+Average clusters visible: 1180
+Building PAS...
+Average clusters audible: 1182
+visdatasize:359332  compressed from 359328
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (21163 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 96 texinfos to 49
+Reduced 20 texdatas to 13 (539 bytes to 284)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+1182 portalclusters
+2563 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 1395770
+Average clusters visible: 1180
+Building PAS...
+Average clusters audible: 1182
+visdatasize:359332  compressed from 359328
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (1)
+transfers 88369, max 122
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (14)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/4096          192/196608   ( 0.1%) 
+brushes                 58/65535         696/786420   ( 0.1%) 
+brushsides            1124/655350       8992/5242800  ( 0.2%) 
+planes                2044/65536       40880/1310720  ( 3.1%) 
+vertexes              2699/65536       32388/786432   ( 4.1%) 
+nodes                 3555/65536      113760/2097152  ( 5.4%) 
+texinfos                49/16384        3528/1179648  ( 0.3%) 
+texdata                 13/8192          416/262144   ( 0.2%) 
+dispinfos              102/0           17952/0        ( 0.0%) 
+disp_verts            8262/0          165240/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      461664/0          461664/0        ( 0.0%) 
+faces                 1608/65536       90048/3670016  ( 2.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              307/65536       17192/3670016  ( 0.5%) 
+leaves                3560/65536      113920/2097152  ( 5.4%) 
+leaffaces             1601/65536        3202/131072   ( 2.4%) 
+leafbrushes           2310/65536        4620/131072   ( 3.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7786/512000      31144/2048000  ( 1.5%) 
+edges                 4158/256000      16632/1024000  ( 1.6%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      540228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      359332/16777216 ( 2.1%) 
+entdata               [variable]        4499/4194304  ( 0.1%) 
+LDR ambient table     3560/65536       14240/262144   ( 5.4%) 
+HDR ambient table     3560/65536       14240/262144   ( 5.4%) 
+LDR leaf ambient      6930/65536      194040/1835008  (10.6%) 
+HDR leaf ambient      3560/65536       99680/1835008  ( 5.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       21163/4194304  ( 0.5%) 
+physics terrain       [variable]       29250/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 3354
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+17 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20055 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 88 texinfos to 44
+Reduced 19 texdatas to 12 (520 bytes to 265)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+1182 portalclusters
+2563 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 1395770
+Average clusters visible: 1180
+Building PAS...
+Average clusters audible: 1182
+visdatasize:359332  compressed from 359328
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (1)
+transfers 88328, max 122
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (16)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/65535         672/786420   ( 0.1%) 
+brushsides            1112/655350       8896/5242800  ( 0.2%) 
+planes                2036/65536       40720/1310720  ( 3.1%) 
+vertexes              2683/65536       32196/786432   ( 4.1%) 
+nodes                 3543/65536      113376/2097152  ( 5.4%) 
+texinfos                44/16384        3168/1179648  ( 0.3%) 
+texdata                 12/8192          384/262144   ( 0.1%) 
+dispinfos              102/0           17952/0        ( 0.0%) 
+disp_verts            8262/0          165240/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      461664/0          461664/0        ( 0.0%) 
+faces                 1596/65536       89376/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              295/65536       16520/3670016  ( 0.5%) 
+leaves                3546/65536      113472/2097152  ( 5.4%) 
+leaffaces             1589/65536        3178/131072   ( 2.4%) 
+leafbrushes           2308/65536        4616/131072   ( 3.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7690/512000      30760/2048000  ( 1.5%) 
+edges                 4110/256000      16440/1024000  ( 1.6%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      540228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      359332/16777216 ( 2.1%) 
+entdata               [variable]        4087/4194304  ( 0.1%) 
+LDR ambient table     3546/65536       14184/262144   ( 5.4%) 
+HDR ambient table     3546/65536       14184/262144   ( 5.4%) 
+LDR leaf ambient      6908/65536      193424/1835008  (10.5%) 
+HDR leaf ambient      3546/65536       99288/1835008  ( 5.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       20055/4194304  ( 0.5%) 
+physics terrain       [variable]       29250/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 3330
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+19 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20511 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 91 texinfos to 44
+Reduced 19 texdatas to 12 (520 bytes to 265)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 798 portalclusters
+1807 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.01%)
+Total clusters visible: 635450
+Average clusters visible: 796
+Building PAS...
+Average clusters audible: 798
+visdatasize:165988  compressed from 165984
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 60315, max 121
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (7)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 57/65535         684/786420   ( 0.1%) 
+brushsides            1118/655350       8944/5242800  ( 0.2%) 
+planes                2040/65536       40800/1310720  ( 3.1%) 
+vertexes              1899/65536       22788/786432   ( 2.9%) 
+nodes                 2355/65536       75360/2097152  ( 3.6%) 
+texinfos                44/16384        3168/1179648  ( 0.3%) 
+texdata                 12/8192          384/262144   ( 0.1%) 
+dispinfos              102/0           17952/0        ( 0.0%) 
+disp_verts            8262/0          165240/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      461664/0          461664/0        ( 0.0%) 
+faces                 1188/65536       66528/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              295/65536       16520/3670016  ( 0.5%) 
+leaves                2358/65536       75456/2097152  ( 3.6%) 
+leaffaces             1181/65536        2362/131072   ( 1.8%) 
+leafbrushes           1626/65536        3252/131072   ( 2.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6058/512000      24232/2048000  ( 1.2%) 
+edges                 3288/256000      13152/1024000  ( 1.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      540228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      165988/16777216 ( 1.0%) 
+entdata               [variable]        4087/4194304  ( 0.1%) 
+LDR ambient table     2358/65536        9432/262144   ( 3.6%) 
+HDR ambient table     2358/65536        9432/262144   ( 3.6%) 
+LDR leaf ambient      5915/65536      165620/1835008  ( 9.0%) 
+HDR leaf ambient      2358/65536       66024/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       20511/4194304  ( 0.5%) 
+physics terrain       [variable]       29250/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2514
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+9 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendrockmud01a_wvt_patch
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20458 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 98 texinfos to 48
+Reduced 20 texdatas to 13 (570 bytes to 315)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 798 portalclusters
+1807 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.01%)
+Total clusters visible: 635450
+Average clusters visible: 796
+Building PAS...
+Average clusters audible: 798
+visdatasize:165988  compressed from 165984
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (1)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (2)
+transfers 75934543, max 11448
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.3048 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 57/65535         684/786420   ( 0.1%) 
+brushsides            1118/655350       8944/5242800  ( 0.2%) 
+planes                2030/65536       40600/1310720  ( 3.1%) 
+vertexes             12753/65536      153036/786432   (19.5%) 
+nodes                 2375/65536       76000/2097152  ( 3.6%) 
+texinfos                48/16384        3456/1179648  ( 0.3%) 
+texdata                 13/8192          416/262144   ( 0.2%) 
+dispinfos              102/0           17952/0        ( 0.0%) 
+disp_verts            8262/0          165240/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      461664/0          461664/0        ( 0.0%) 
+faces                12567/65536      703752/3670016  (19.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              296/65536       16576/3670016  ( 0.5%) 
+leaves                2378/65536       76096/2097152  ( 3.6%) 
+leaffaces            12560/65536       25120/131072   (19.2%) 
+leafbrushes           1522/65536        3044/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            51838/512000     207352/2048000  (10.1%) 
+edges                26120/256000     104480/1024000  (10.2%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           333/65536         666/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]    26176716/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      165988/16777216 ( 1.0%) 
+entdata               [variable]        4092/4194304  ( 0.1%) 
+LDR ambient table     2378/65536        9512/262144   ( 3.6%) 
+HDR ambient table     2378/65536        9512/262144   ( 3.6%) 
+LDR leaf ambient       862/65536       24136/1835008  ( 1.3%) 
+HDR leaf ambient      2378/65536       66584/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1805/0        ( 0.0%) 
+physics               [variable]       20458/4194304  ( 0.5%) 
+physics terrain       [variable]       29250/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 25532
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+9 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendrockmud01a_wvt_patch
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20066 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 97 texinfos to 48
+Reduced 20 texdatas to 13 (570 bytes to 315)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 798 portalclusters
+1807 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.01%)
+Total clusters visible: 635450
+Average clusters visible: 796
+Building PAS...
+Average clusters audible: 798
+visdatasize:165988  compressed from 165984
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (1)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (2)
+transfers 75934548, max 11448
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.3087 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (2)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/65535         672/786420   ( 0.1%) 
+brushsides            1112/655350       8896/5242800  ( 0.2%) 
+planes                2018/65536       40360/1310720  ( 3.1%) 
+vertexes             12753/65536      153036/786432   (19.5%) 
+nodes                 2333/65536       74656/2097152  ( 3.6%) 
+texinfos                48/16384        3456/1179648  ( 0.3%) 
+texdata                 13/8192          416/262144   ( 0.2%) 
+dispinfos              102/0           17952/0        ( 0.0%) 
+disp_verts            8262/0          165240/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      461664/0          461664/0        ( 0.0%) 
+faces                12567/65536      703752/3670016  (19.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              296/65536       16576/3670016  ( 0.5%) 
+leaves                2336/65536       74752/2097152  ( 3.6%) 
+leaffaces            12560/65536       25120/131072   (19.2%) 
+leafbrushes           1516/65536        3032/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            51838/512000     207352/2048000  (10.1%) 
+edges                26120/256000     104480/1024000  (10.2%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           333/65536         666/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]    26176716/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      165988/16777216 ( 1.0%) 
+entdata               [variable]        4092/4194304  ( 0.1%) 
+LDR ambient table     2336/65536        9344/262144   ( 3.6%) 
+HDR ambient table     2336/65536        9344/262144   ( 3.6%) 
+LDR leaf ambient       862/65536       24136/1835008  ( 1.3%) 
+HDR leaf ambient      2336/65536       65408/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1805/0        ( 0.0%) 
+physics               [variable]       20066/4194304  ( 0.5%) 
+physics terrain       [variable]       29250/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 25532
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+8 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20055 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 90 texinfos to 44
+Reduced 19 texdatas to 12 (520 bytes to 265)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 798 portalclusters
+1807 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.01%)
+Total clusters visible: 635450
+Average clusters visible: 796
+Building PAS...
+Average clusters audible: 798
+visdatasize:165988  compressed from 165984
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 60315, max 121
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (11)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/65535         672/786420   ( 0.1%) 
+brushsides            1112/655350       8896/5242800  ( 0.2%) 
+planes                2018/65536       40360/1310720  ( 3.1%) 
+vertexes              1891/65536       22692/786432   ( 2.9%) 
+nodes                 2333/65536       74656/2097152  ( 3.6%) 
+texinfos                44/16384        3168/1179648  ( 0.3%) 
+texdata                 12/8192          384/262144   ( 0.1%) 
+dispinfos              102/0           17952/0        ( 0.0%) 
+disp_verts            8262/0          165240/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      461664/0          461664/0        ( 0.0%) 
+faces                 1188/65536       66528/3670016  ( 1.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              295/65536       16520/3670016  ( 0.5%) 
+leaves                2336/65536       74752/2097152  ( 3.6%) 
+leaffaces             1181/65536        2362/131072   ( 1.8%) 
+leafbrushes           1516/65536        3032/131072   ( 2.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6058/512000      24232/2048000  ( 1.2%) 
+edges                 3282/256000      13128/1024000  ( 1.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      540228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      165988/16777216 ( 1.0%) 
+entdata               [variable]        4087/4194304  ( 0.1%) 
+LDR ambient table     2336/65536        9344/262144   ( 3.6%) 
+HDR ambient table     2336/65536        9344/262144   ( 3.6%) 
+LDR leaf ambient      5926/65536      165928/1835008  ( 9.0%) 
+HDR leaf ambient      2336/65536       65408/1835008  ( 3.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       20055/4194304  ( 0.5%) 
+physics terrain       [variable]       29250/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 2514
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+13 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20055 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 93 texinfos to 44
+Reduced 19 texdatas to 12 (520 bytes to 265)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 558 portalclusters
+1339 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.01%)
+Total clusters visible: 310010
+Average clusters visible: 555
+Building PAS...
+Average clusters audible: 558
+visdatasize:82588  compressed from 80352
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 42403, max 122
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0048 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (7)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/65535         672/786420   ( 0.1%) 
+brushsides            1112/655350       8896/5242800  ( 0.2%) 
+planes                2000/65536       40000/1310720  ( 3.1%) 
+vertexes              1387/65536       16644/786432   ( 2.1%) 
+nodes                 1571/65536       50272/2097152  ( 2.4%) 
+texinfos                44/16384        3168/1179648  ( 0.3%) 
+texdata                 12/8192          384/262144   ( 0.1%) 
+dispinfos              102/0           17952/0        ( 0.0%) 
+disp_verts            8262/0          165240/0        ( 0.0%) 
+disp_tris            13056/0           26112/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      461664/0          461664/0        ( 0.0%) 
+faces                  924/65536       51744/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              295/65536       16520/3670016  ( 0.5%) 
+leaves                1574/65536       50368/2097152  ( 2.4%) 
+leaffaces              917/65536        1834/131072   ( 1.4%) 
+leafbrushes           1012/65536        2024/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5002/512000      20008/2048000  ( 1.0%) 
+edges                 2742/256000      10968/1024000  ( 1.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      540228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       82588/16777216 ( 0.5%) 
+entdata               [variable]        4087/4194304  ( 0.1%) 
+LDR ambient table     1574/65536        6296/262144   ( 2.4%) 
+HDR ambient table     1574/65536        6296/262144   ( 2.4%) 
+LDR leaf ambient      4934/65536      138152/1835008  ( 7.5%) 
+HDR leaf ambient      1574/65536       44072/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]      892784/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       20055/4194304  ( 0.5%) 
+physics terrain       [variable]       29250/1048576  ( 2.8%) 
+
+Level flags = 0
+
+Total triangle count: 1986
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+9 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (20055 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 93 texinfos to 44
+Reduced 19 texdatas to 12 (520 bytes to 265)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 558 portalclusters
+1339 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.01%)
+Total clusters visible: 310010
+Average clusters visible: 555
+Building PAS...
+Average clusters audible: 558
+visdatasize:82588  compressed from 80352
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (1)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 435928, max 921
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0462 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (4)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/65535         672/786420   ( 0.1%) 
+brushsides            1112/655350       8896/5242800  ( 0.2%) 
+planes                2040/65536       40800/1310720  ( 3.1%) 
+vertexes              2227/65536       26724/786432   ( 3.4%) 
+nodes                 1571/65536       50272/2097152  ( 2.4%) 
+texinfos                44/16384        3168/1179648  ( 0.3%) 
+texdata                 12/8192          384/262144   ( 0.1%) 
+dispinfos              902/0          158752/0        ( 0.0%) 
+disp_verts           73062/0         1461240/0        ( 0.0%) 
+disp_tris           115456/0          230912/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples     4160864/0         4160864/0        ( 0.0%) 
+faces                 1724/65536       96544/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1095/65536       61320/3670016  ( 1.7%) 
+leaves                1574/65536       50368/2097152  ( 2.4%) 
+leaffaces              917/65536        1834/131072   ( 1.4%) 
+leafbrushes           1012/65536        2024/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            11402/512000      45608/2048000  ( 2.2%) 
+edges                 6022/256000      24088/1024000  ( 2.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     4242628/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       82588/16777216 ( 0.5%) 
+entdata               [variable]        4087/4194304  ( 0.1%) 
+LDR ambient table     1574/65536        6296/262144   ( 2.4%) 
+HDR ambient table     1574/65536        6296/262144   ( 2.4%) 
+LDR leaf ambient      4486/65536      125608/1835008  ( 6.8%) 
+HDR leaf ambient      1574/65536       44072/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]     7996868/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       20055/4194304  ( 0.5%) 
+physics terrain       [variable]       71650/1048576  ( 6.8%) 
+
+Level flags = 0
+
+Total triangle count: 3586
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+24 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (20055 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 96 texinfos to 44
+Reduced 19 texdatas to 12 (520 bytes to 265)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+3 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 834 portalclusters
+1879 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 694202
+Average clusters visible: 832
+Building PAS...
+Average clusters audible: 834
+visdatasize:181820  compressed from 186816
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (2)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1977178, max 2521
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.1519 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (6)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/65535         672/786420   ( 0.1%) 
+brushsides            1112/655350       8896/5242800  ( 0.2%) 
+planes                2100/65536       42000/1310720  ( 3.2%) 
+vertexes              4443/65536       53316/786432   ( 6.8%) 
+nodes                 2443/65536       78176/2097152  ( 3.7%) 
+texinfos                44/16384        3168/1179648  ( 0.3%) 
+texdata                 12/8192          384/262144   ( 0.1%) 
+dispinfos             2502/0          440352/0        ( 0.0%) 
+disp_verts          202662/0         4053240/0        ( 0.0%) 
+disp_tris           320256/0          640512/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples    11559264/0        11559264/0        ( 0.0%) 
+faces                 3624/65536      202944/3670016  ( 5.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2695/65536      150920/3670016  ( 4.1%) 
+leaves                2446/65536       78272/2097152  ( 3.7%) 
+leaffaces             1217/65536        2434/131072   ( 1.9%) 
+leafbrushes           1588/65536        3176/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            25402/512000     101608/2048000  ( 5.0%) 
+edges                13114/256000      52456/1024000  ( 5.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]    11647428/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      181820/16777216 ( 1.1%) 
+entdata               [variable]        4091/4194304  ( 0.1%) 
+LDR ambient table     2446/65536        9784/262144   ( 3.7%) 
+HDR ambient table     2446/65536        9784/262144   ( 3.7%) 
+LDR leaf ambient      2013/65536       56364/1835008  ( 3.1%) 
+HDR leaf ambient      2446/65536       68488/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]    22234416/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       20055/4194304  ( 0.5%) 
+physics terrain       [variable]      156450/1048576  (14.9%) 
+
+Level flags = 0
+
+Total triangle count: 7386
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+1 minute, 9 seconds elapsed
+
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.vmf
+Patching WVT material: maps/demogmodbox/nature/blendsandweed005a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.prt...
+Building visibility clusters...
+done (0)
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Can't load skybox file skybox/sky_fog to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (2) (20055 bytes)
+Error! To use model "models/props_lab/bigrock.mdl" with prop_static, it must be compiled with $staticprop!
+Error loading studio model STATIC "models/props_lab/bigrock.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 96 texinfos to 44
+Reduced 19 texdatas to 12 (520 bytes to 265)
+Writing C:\Users\zdrow\Documents\vmf\gmod\demogmodbox.bsp
+3 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+reading c:\users\zdrow\documents\vmf\gmod\demogmodbox.prt
+ 834 portalclusters
+1879 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 34 visible clusters (0.00%)
+Total clusters visible: 694202
+Average clusters visible: 832
+Building PAS...
+Average clusters audible: 834
+visdatasize:181820  compressed from 186816
+writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (1)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (2)
+transfers 1070411, max 1541
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.1551 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (5)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 56/65535         672/786420   ( 0.1%) 
+brushsides            1112/655350       8896/5242800  ( 0.2%) 
+planes                2100/65536       42000/1310720  ( 3.2%) 
+vertexes              4443/65536       53316/786432   ( 6.8%) 
+nodes                 2443/65536       78176/2097152  ( 3.7%) 
+texinfos                44/16384        3168/1179648  ( 0.3%) 
+texdata                 12/8192          384/262144   ( 0.1%) 
+dispinfos             2502/0          440352/0        ( 0.0%) 
+disp_verts          202662/0         4053240/0        ( 0.0%) 
+disp_tris           320256/0          640512/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples    11559264/0        11559264/0        ( 0.0%) 
+faces                 3624/65536      202944/3670016  ( 5.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2695/65536      150920/3670016  ( 4.1%) 
+leaves                2446/65536       78272/2097152  ( 3.7%) 
+leaffaces             1217/65536        2434/131072   ( 1.9%) 
+leafbrushes           1588/65536        3176/131072   ( 2.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            25402/512000     101608/2048000  ( 5.0%) 
+edges                13114/256000      52456/1024000  ( 5.1%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             22/32768         220/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           321/65536         642/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]    11647428/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      181820/16777216 ( 1.1%) 
+entdata               [variable]        4091/4194304  ( 0.1%) 
+LDR ambient table     2446/65536        9784/262144   ( 3.7%) 
+HDR ambient table     2446/65536        9784/262144   ( 3.7%) 
+LDR leaf ambient      2019/65536       56532/1835008  ( 3.1%) 
+HDR leaf ambient      2446/65536       68488/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]    22228020/0        ( 0.0%) 
+dtl prp lght          [variable]           4/0        ( 0.0%) 
+HDR dtl prp lght      [variable]           4/0        ( 0.0%) 
+static props          [variable]        1048/0        ( 0.0%) 
+static prop count        5/16384           0/0        ( 0.0%) 
+pakfile               [variable]        1394/0        ( 0.0%) 
+physics               [variable]       20055/4194304  ( 0.5%) 
+physics terrain       [variable]      792330/1048576  (75.6%) 
+
+Level flags = 0
+
+Total triangle count: 7386
+Writing c:\users\zdrow\documents\vmf\gmod\demogmodbox.bsp
+1 minute, 14 seconds elapsed
+

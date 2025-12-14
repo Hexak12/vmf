@@ -1,0 +1,247 @@
+
+
+
+materialPath: D:\Programy\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\vmf\drit3.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\vmf\drit3.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (81841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 94 texinfos to 48
+Reduced 18 texdatas to 17 (508 bytes to 473)
+Writing D:\vmf\drit3.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\vmf\drit3.bsp
+reading d:\vmf\drit3.prt
+  82 portalclusters
+ 290 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 8 visible clusters (0.14%)
+Total clusters visible: 5745
+Average clusters visible: 70
+Building PAS...
+Average clusters audible: 82
+visdatasize:2471  compressed from 2624
+writing d:\vmf\drit3.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\vmf\drit3.bsp
+PREP OK
+201 faces
+29724 square feet [4280350.00 square inches]
+1 Displacements
+11264 Square Feet [1622016.00 Square Inches]
+201 patches before subdivision
+1717 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 43262, max 204
+transfer lists:   0.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3878, 3627, 1901)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(297, 225, 104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(37, 25, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0005 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 69/16384         828/196608   ( 0.4%) 
+brushsides             434/163840       3472/1310720  ( 0.3%) 
+planes                 228/65536        4560/1310720  ( 0.3%) 
+vertexes               371/65536        4452/786432   ( 0.6%) 
+nodes                  175/65536        5600/2097152  ( 0.3%) 
+texinfos                48/16384        3456/1179648  ( 0.3%) 
+texdata                 17/8192          544/262144   ( 0.2%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       29985/0           29985/0        ( 0.0%) 
+faces                  201/65536       11256/3670016  ( 0.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              115/65536        6440/3670016  ( 0.2%) 
+leaves                 177/65536        5664/2097152  ( 0.3%) 
+leaffaces              251/65536         502/131072   ( 0.4%) 
+leafbrushes            159/65536         318/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1421/512000       5684/2048000  ( 0.3%) 
+edges                  853/256000       3412/1024000  ( 0.3%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           279/65536         558/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]       72204/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2471/16777216 ( 0.0%) 
+entdata               [variable]         612/393216   ( 0.2%) 
+LDR ambient table      177/65536         708/262144   ( 0.3%) 
+HDR ambient table      177/65536         708/262144   ( 0.3%) 
+LDR leaf ambient       691/65536       19348/1835008  ( 1.1%) 
+HDR leaf ambient       177/65536        4956/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       49950/0        ( 0.0%) 
+physics               [variable]       81841/4194304  ( 2.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 562
+Writing d:\vmf\drit3.bsp
+0 seconds elapsed
+
+
+
+materialPath: D:\Programy\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\vmf\drit3.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\vmf\drit3.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (81841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 92 texinfos to 46
+Reduced 18 texdatas to 17 (508 bytes to 473)
+Writing D:\vmf\drit3.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\vmf\drit3.bsp
+reading d:\vmf\drit3.prt
+ 909 portalclusters
+2073 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 298 visible clusters (0.04%)
+Total clusters visible: 773868
+Average clusters visible: 851
+Building PAS...
+Average clusters audible: 909
+visdatasize:214146  compressed from 218160
+writing d:\vmf\drit3.bsp
+40 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\vmf\drit3.bsp
+PREP OK
+DispColl: Patch Sample Radius Clamped! (3784.0 => 1500.0 max via -disppatchradius) @ -13380.00 -10432.00 -2244.00
+3184 faces
+10002238 square feet [1440322304.00 square inches]
+1 Displacements
+3852288 Square Feet [554729472.00 Square Inches]
+3184 patches before subdivision
+202986 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14243413, max 1308
+transfer lists: 108.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(425499, 391707, 202476)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34781, 26009, 12289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4763, 3202, 1320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(629, 332, 121)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(103, 46, 15)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(17, 6, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0687 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4
+
+
+materialPath: D:\Programy\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading D:\vmf\drit3.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\vmf\drit3.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (81841 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 92 texinfos to 46
+Reduced 18 texdatas to 17 (508 bytes to 473)
+Writing D:\vmf\drit3.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\vmf\drit3.bsp
+reading d:\vmf\drit3.prt
+ 909 portalclusters
+2073 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9..
