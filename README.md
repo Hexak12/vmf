@@ -2,8 +2,8 @@
 
 <img src="https://developer.valvesoftware.com/w/images/3/34/Hammer_splash.png">
 
-## Collection of my Source engine maps and mods files.
-some crapy maps and trash mods<br>
+## Collection of my Source engine maps and mods .
+<font face="Comic Sans MS">some crapy maps and trash mods</font><br>
 mainly for <b>hl2, ep1, ep2 and gmod</b>
 
 - creating maps <a href="https://ficool2.github.io/HammerPlusPlus-Website/download.html">Hammer++</a>
@@ -12,7 +12,7 @@ mainly for <b>hl2, ep1, ep2 and gmod</b>
 
 ### To do:
 - make it more clean
-- fix the tree files please
+- fix the tree please
 
 ### Maintainer
 - me
