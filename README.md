@@ -13,7 +13,7 @@ mainly for <b>hl2, ep1, ep2 and gmod</b>
 ### To do:
 - make it more clean
 - fix the tree please
-- maybe use obsidian
+- maybe use obsidian or maybe not
 
 ### Maintainer
 - me
