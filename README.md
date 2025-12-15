@@ -13,7 +13,7 @@ mainly for <b>hl2, ep1, ep2 and gmod</b>
 ### Maps:
 For now only <a href="gmod/pentapolegmod/maps/pentapole.bsp">pentapole</a> is most complete map<br>
 Most recent version of jail is <a href="jailhl2build3.bsp">jailhl2build3.bsp</a><br>
-rest of maps is very in alpha or in development limbo
+rest of maps are in alpha, in development limbo or scrap
 
 ### To do:
 - make it more clean
