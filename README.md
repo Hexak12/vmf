@@ -2,7 +2,7 @@
 
 <img src="https://developer.valvesoftware.com/w/images/3/34/Hammer_splash.png">
 
-## Collection of my Source engine maps and mods .
+## Collection of my Source engine maps and mods.
 some crapy maps and trash mods<br>
 mainly for <b>hl2, ep1, ep2 and gmod</b>
 
