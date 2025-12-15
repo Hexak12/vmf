@@ -12604,3 +12604,275 @@ Level flags = 0
 Total triangle count: 18343
 Writing c:\users\zdrow\documents\vmf\jailhl2build3.bsp
 12 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\ep2\materials
+Loading C:\Users\zdrow\Documents\vmf\jailhl2build3.vmf
+ConVarRef mat_specular_scalar doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\ep2\gameinfo.txt
+Patching WVT material: maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch
+Patching WVT material: maps/jailhl2build3/nature/blendcliffgrass001a_wvt_patch
+Patching WVT material: maps/jailhl2build3/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 266 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\zdrow\Documents\vmf\jailhl2build3.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_fog*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_fog*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1594230 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7.Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+.Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+.8...9.Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+.Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+Material maps/jailhl2build3/nature/blendrockgrass004a_wvt_patch uses unknown detail object type coastline_redgrass01!
+.10
+Compacting texture/material tables...
+Reduced 1016 texinfos to 637
+Reduced 70 texdatas to 58 (1689 bytes to 1329)
+Writing C:\Users\zdrow\Documents\vmf\jailhl2build3.bsp
+2 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\jailhl2build3.bsp
+reading c:\users\zdrow\documents\vmf\jailhl2build3.prt
+ 643 portalclusters
+2116 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 958 visible clusters (0.41%)
+Total clusters visible: 235307
+Average clusters visible: 365
+Building PAS...
+Average clusters audible: 612
+visdatasize:104536  compressed from 113168
+writing c:\users\zdrow\documents\vmf\jailhl2build3.bsp
+59 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\zdrow\documents\vmf\jailhl2build3.bsp
+6075 faces
+2541246 square feet [365939488.00 square inches]
+23 Displacements
+94443 Square Feet [13599836.00 Square Inches]
+6075 patches before subdivision
+120209 patches after subdivision
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23933179, max 2115
+transfer lists: 182.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(291317, 276906, 257951)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(49450, 45392, 40232)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6822, 6021, 5079)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1377, 1178, 955)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(233, 194, 154)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(51, 42, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(11, 9, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0280 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/2048          576/98304    ( 0.6%) 
+brushes               1155/16384       13860/196608   ( 7.0%) 
+brushsides            8872/65536       70976/524288   (13.5%) 
+planes                4920/65536       98400/1310720  ( 7.5%) 
+vertexes              8937/65536      107244/786432   (13.6%) 
+nodes                 1752/65536       56064/2097152  ( 2.7%) 
+texinfos               637/16384       45864/1179648  ( 3.9%) 
+texdata                 58/8096         1856/259072   ( 0.7%) 
+dispinfos               23/0            4048/0        ( 0.0%) 
+disp_verts            6023/0          120460/0        ( 0.0%) 
+disp_tris            10624/0           21248/0        ( 0.0%) 
+disp_lmsamples      247977/0          247977/0        ( 0.0%) 
+faces                 6075/65536      340200/3670016  ( 9.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3659/65536      204904/3670016  ( 5.6%) 
+leaves                1765/65536       56480/2097152  ( 2.7%) 
+leaffaces             6897/65536       13794/131072   (10.5%) 
+leafbrushes           3619/65536        7238/131072   ( 5.5%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            44747/512000     178988/2048000  ( 8.7%) 
+edges                26201/256000     104804/1024000  (10.2%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            624/32768        6240/327680   ( 1.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         14274/65536       28548/131072   (21.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     4812228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      104536/16777216 ( 0.6%) 
+entdata               [variable]       30407/393216   ( 7.7%) 
+LDR ambient table     1765/65536        7060/262144   ( 2.7%) 
+HDR ambient table     1765/65536        7060/262144   ( 2.7%) 
+LDR leaf ambient      6219/65536      174132/1835008  ( 9.5%) 
+HDR leaf ambient      1765/65536       49420/1835008  ( 2.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5196     ( 0.0%) 
+pakfile               [variable]      166488/0        ( 0.0%) 
+physics               [variable]     1594230/4194304  (38.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 18404
+Writing c:\users\zdrow\documents\vmf\jailhl2build3.bsp
+13 seconds elapsed
