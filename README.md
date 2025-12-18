@@ -15,6 +15,11 @@ For now only <a href="gmod/pentapolegmod/maps/pentapole.bsp">pentapole</a> is mo
 Most recent version of jail is <a href="jailhl2build3.bsp">jailhl2build3.bsp</a><br>
 rest of maps are in alpha, in development limbo or scrap
 
+### Notes on Pentapole
+- Development (dev) version: `demogmod` — file: `gmod/demogmod.vmf` / `gmod/demogmod.bsp`
+- Sandbox version: `demogmodbox` — file: `gmod/demogmodbox.vmf` / `gmod/demogmodbox.bsp`
+- See the `gmod/` folder for other variants and the `gmod/pentapolegmod/` addon structure.
+
 ### To do:
 - make it more clean
 - fix the tree please
