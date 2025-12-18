@@ -9,9 +9,9 @@ This repository is a personal archive and development workspace for Source engin
 - Development and experimental maps; many files are works-in-progress or archived experiments.
 
 ### Recommended tools
-- Hammer++ — editor for creating and editing VMF files: https://ficool2.github.io/HammerPlusPlus-Website/download.html
-- BSPSource — decompile BSPs to VMF: https://github.com/ata4/bspsrc
-- gmpublisher — publish maps to Garry's Mod: https://github.com/WilliamVenner/gmpublisher
+- <a href="https://ficool2.github.io/HammerPlusPlus-Website/download.html">Hammer++</a> — editor for creating and editing VMF files
+- <a href="https://github.com/ata4/bspsrc">BSPSource</a> — decompile BSPs to VMF
+- <a href="https://github.com/WilliamVenner/gmpublisher">gmpublisher</a> — publish maps to Garry's Mod
 
 ### Maps of note
 <a href="gmod/pentapolegmod/maps/pentapole.bsp">`gmod/pentapolegmod/maps/pentapole.bsp`</a> — one of the more complete maps in this collection.
