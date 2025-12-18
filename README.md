@@ -15,7 +15,7 @@ This repository is a personal archive and development workspace for Source engin
 
 ### Maps of note
 <a href="gmod/pentapolegmod/maps/pentapole.bsp">`gmod/pentapolegmod/maps/pentapole.bsp`</a> — one of the more complete maps in this collection.
-- Development (dev) build: <a href="gmod/demogmod.vmf">`gmod/demogmod.vmf`</a> / <a href="gmod/demogmod.bsp">`gmod/demogmod.bsp`</a>
+- Development build: <a href="gmod/demogmod.vmf">`gmod/demogmod.vmf`</a> / <a href="gmod/demogmod.bsp">`gmod/demogmod.bsp`</a>
 - Sandbox (dev) build: <a href="gmod/demogmodbox.vmf">`gmod/demogmodbox.vmf`</a> / <a href="gmod/demogmodbox.bsp">`gmod/demogmodbox.bsp`</a>
 
 Most recent <b>jail</b> build included: <a href="jailhl2build3.bsp">`jailhl2build3.bsp`</a>.
