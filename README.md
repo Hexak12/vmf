@@ -4,35 +4,30 @@
 
 This repository is a personal archive and development workspace for Source engine maps and mods (Half-Life 2, Episode One, Episode Two, and Garry's Mod).
 
-Contents
+### Contents
 - Map VMF/PRT/BSP sources and various mod files.
 - Development and experimental maps; many files are works-in-progress or archived experiments.
 
-Recommended tools
+### Recommended tools
 - Hammer++ — editor for creating and editing VMF files: https://ficool2.github.io/HammerPlusPlus-Website/download.html
 - BSPSource — decompile BSPs to VMF: https://github.com/ata4/bspsrc
 - gmpublisher — publish maps to Garry's Mod: https://github.com/WilliamVenner/gmpublisher
 
-Maps of note
--- `gmod/pentapolegmod/maps/pentapole.bsp` — one of the more complete maps in this collection.
+### Maps of note
+`gmod/pentapolegmod/maps/pentapole.bsp` — one of the more complete maps in this collection.
 - Development (dev) build: `gmod/demogmod.vmf` / `gmod/demogmod.bsp` (dev: `demogmod`).
 - Sandbox (dev) build: `gmod/demogmodbox.vmf` / `gmod/demogmodbox.bsp` (dev: `demogmodbox`).
 
-- Most recent `jail` build included: `jailhl2build3.bsp`.
+Most recent `jail` build included: `jailhl2build3.bsp`.
 
-Status
+### Status
 - Many maps are in alpha or experimental state and may be incomplete or unpolished.
 
-Contributing / workflow notes
+### Contributing / workflow notes
 - If you want to modify a BSP, decompile it with BSPSource to get a VMF, edit in Hammer++ and recompile with your preferred toolchain.
 - Prefer submitting VMF/PRT sources when possible so others can reproduce edits.
 - Open an issue or contact the maintainer with proposed changes or questions.
 
-Maintainer
+### Maintainer
 - Repository author (local personal collection).
 
-License
-- This repository contains a mix of personal work and third-party assets. Check individual files for licensing; no single license is claimed here.
-
----
-If you'd like, I can also tidy file organization suggestions or add a CONTRIBUTING.md with a recommended workflow.
