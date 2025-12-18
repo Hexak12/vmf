@@ -12,8 +12,8 @@ mainly for <b>hl2, ep1, ep2 and gmod</b>
 
 ### Maps:
 For now only <a href="gmod/pentapolegmod/maps/pentapole.bsp">`pentapole`</a> is most complete map<br>
-- Development (dev) version: `demogmod` — `gmod/demogmod.vmf` / `gmod/demogmod.bsp`
-- Sandbox version: `demogmodbox` — `gmod/demogmodbox.vmf` / `gmod/demogmodbox.bsp`
+- Development (dev) version: `demogmod` — <a href="gmod/demogmod.vmf">`gmod/demogmod.vmf`</a> / <a href="gmod/demogmod.bsp">`gmod/demogmod.bsp`</a>
+- Sandbox (dev) version: `demogmodbox` — <a href="gmod/demogmodbox.vmf">`gmod/demogmodbox.vmf`</a> / <a href="gmod/demogmodbox.bsp">`gmod/demogmodbox.bsp`</a>
 
 Most recent version of `jail` is <a href="jailhl2build3.bsp">`jailhl2build3.bsp`</a><br>
 rest of maps are in alpha, in development limbo or scrap
