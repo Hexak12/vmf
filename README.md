@@ -11,14 +11,12 @@ mainly for <b>hl2, ep1, ep2 and gmod</b>
 - for publishing maps to gmod use <a href="https://github.com/WilliamVenner/gmpublisher">gmpublisher</a>
 
 ### Maps:
-For now only <a href="gmod/pentapolegmod/maps/pentapole.bsp">pentapole</a> is most complete map<br>
-Most recent version of jail is <a href="jailhl2build3.bsp">jailhl2build3.bsp</a><br>
-rest of maps are in alpha, in development limbo or scrap
+For now only <a href="gmod/pentapolegmod/maps/pentapole.bsp">`pentapole`</a> is most complete map<br>
+- Development (dev) version: `demogmod` — `gmod/demogmod.vmf` / `gmod/demogmod.bsp`
+- Sandbox version: `demogmodbox` — `gmod/demogmodbox.vmf` / `gmod/demogmodbox.bsp`
 
-### Notes on Pentapole
-- Development (dev) version: `demogmod` — file: `gmod/demogmod.vmf` / `gmod/demogmod.bsp`
-- Sandbox version: `demogmodbox` — file: `gmod/demogmodbox.vmf` / `gmod/demogmodbox.bsp`
-- See the `gmod/` folder for other variants and the `gmod/pentapolegmod/` addon structure.
+Most recent version of `jail` is <a href="jailhl2build3.bsp">`jailhl2build3.bsp`</a><br>
+rest of maps are in alpha, in development limbo or scrap
 
 ### To do:
 - make it more clean
