@@ -1,28 +1,38 @@
-# VMF
+# VMF — Source maps & mods collection
 
 <img src="https://developer.valvesoftware.com/w/images/3/34/Hammer_splash.png">
 
-## Collection of my Source engine maps and mods.
-some crapy maps and trash mods<br>
-mainly for <b>hl2, ep1, ep2 and gmod</b>
+This repository is a personal archive and development workspace for Source engine maps and mods (Half-Life 2, Episode One, Episode Two, and Garry's Mod).
 
-- for creating maps use <a href="https://ficool2.github.io/HammerPlusPlus-Website/download.html">Hammer++</a> (gmod 64bit!!!)
-- for decomp maps to vmf use <a href="https://github.com/ata4/bspsrc">BSPSource</a>
-- for publishing maps to gmod use <a href="https://github.com/WilliamVenner/gmpublisher">gmpublisher</a>
+Contents
+- Map VMF/PRT/BSP sources and various mod files.
+- Development and experimental maps; many files are works-in-progress or archived experiments.
 
-### Maps:
-For now only <a href="gmod/pentapolegmod/maps/pentapole.bsp">pentapole</a> is most complete map<br>
-- Development (dev) version: `demogmod` — <a href="gmod/demogmod.vmf">`gmod/demogmod.vmf`</a> / <a href="gmod/demogmod.bsp">`gmod/demogmod.bsp`</a>
-- Sandbox (dev) version: `demogmodbox` — <a href="gmod/demogmodbox.vmf">`gmod/demogmodbox.vmf`</a> / <a href="gmod/demogmodbox.bsp">`gmod/demogmodbox.bsp`</a>
+Recommended tools
+- Hammer++ — editor for creating and editing VMF files: https://ficool2.github.io/HammerPlusPlus-Website/download.html
+- BSPSource — decompile BSPs to VMF: https://github.com/ata4/bspsrc
+- gmpublisher — publish maps to Garry's Mod: https://github.com/WilliamVenner/gmpublisher
 
-Most recent version of `jail` is <a href="jailhl2build3.bsp">`jailhl2build3.bsp`</a><br>
+Maps of note
+-- `gmod/pentapolegmod/maps/pentapole.bsp` — one of the more complete maps in this collection.
+- Development (dev) build: `gmod/demogmod.vmf` / `gmod/demogmod.bsp` (dev: `demogmod`).
+- Sandbox (dev) build: `gmod/demogmodbox.vmf` / `gmod/demogmodbox.bsp` (dev: `demogmodbox`).
 
-rest of maps are in alpha, in development limbo or scrap
+- Most recent `jail` build included: `jailhl2build3.bsp`.
 
-### To do:
-- make it more clean
-- fix the tree please
-- maybe use obsidian or maybe not
+Status
+- Many maps are in alpha or experimental state and may be incomplete or unpolished.
 
-### Maintainer
-- me
+Contributing / workflow notes
+- If you want to modify a BSP, decompile it with BSPSource to get a VMF, edit in Hammer++ and recompile with your preferred toolchain.
+- Prefer submitting VMF/PRT sources when possible so others can reproduce edits.
+- Open an issue or contact the maintainer with proposed changes or questions.
+
+Maintainer
+- Repository author (local personal collection).
+
+License
+- This repository contains a mix of personal work and third-party assets. Check individual files for licensing; no single license is claimed here.
+
+---
+If you'd like, I can also tidy file organization suggestions or add a CONTRIBUTING.md with a recommended workflow.
