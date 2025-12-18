@@ -18,7 +18,7 @@ This repository is a personal archive and development workspace for Source engin
 - Development (dev) build: <a href="gmod/demogmod.vmf">`gmod/demogmod.vmf`</a> / <a href="gmod/demogmod.bsp">`gmod/demogmod.bsp`</a>
 - Sandbox (dev) build: <a href="gmod/demogmodbox.vmf">`gmod/demogmodbox.vmf`</a> / <a href="gmod/demogmodbox.bsp">`gmod/demogmodbox.bsp`</a>
 
-Most recent `jail` build included: <a href="jailhl2build3.bsp">jailhl2build3.bsp</a>.
+Most recent <b>jail</b> build included: <a href="jailhl2build3.bsp">`jailhl2build3.bsp`</a>.
 
 ### Status
 - Many maps are in alpha or experimental state and may be incomplete or unpolished.
