@@ -9856,3 +9856,164 @@ Level flags = 0
 Total triangle count: 1090
 Writing d:\vmf\2.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\zdrow\Documents\vmf\2.vmf
+Patching WVT material: maps/2/nature/blendrocksand008c_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+NODRAW on terrain surface!
+done (0)
+writing C:\Users\zdrow\Documents\vmf\2.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day01_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day01_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+Degenerate Triangle
+(-3888.00, 269.50, 2644.20), (-3888.00, 235.75, 2644.32), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3888.00, 235.75, 2644.32), (-3888.00, 202.00, 2640.81), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3888.00, 202.00, 2640.81), (-3888.00, 235.75, 2644.32), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3888.00, 235.75, 2644.32), (-3888.00, 269.50, 2644.20), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3888.00, 269.50, 2644.87), (-3888.00, 235.75, 2644.32), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3888.00, 235.75, 2644.32), (-3888.00, 202.00, 2644.80), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3888.00, 202.00, 2644.80), (-3888.00, 235.75, 2644.32), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3888.00, 235.75, 2644.32), (-3888.00, 269.50, 2644.87), (-3888.00, 235.75, 2644.32)
+Degenerate Triangle
+(-3508.00, -0.50, 2533.58), (-3508.00, -34.25, 2527.78), (-3508.00, -34.25, 2527.78)
+Degenerate Triangle
+(-3508.00, -34.25, 2527.78), (-3508.00, -68.00, 2528.40), (-3508.00, -34.25, 2527.78)
+done (0) (404832 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 143 texinfos to 70
+Reduced 31 texdatas to 26 (924 bytes to 797)
+Writing C:\Users\zdrow\Documents\vmf\2.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\zdrow\documents\vmf\2.bsp
+reading c:\users\zdrow\documents\vmf\2.prt
+  92 portalclusters
+ 279 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 30 visible clusters (0.41%)
+Total clusters visible: 7288
+Average clusters visible: 79
+Building PAS...
+Average clusters audible: 90
+visdatasize:2930  compressed from 2944
+writing c:\users\zdrow\documents\vmf\2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[51 texlights parsed from 'lights.rad']
+Loading c:\users\zdrow\documents\vmf\2.bsp
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 189187, max 235
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (1)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/4096          336/196608   ( 0.2%) 
+brushes                164/65535        1968/786420   ( 0.3%) 
+brushsides            1252/655350      10016/5242800  ( 0.2%) 
+planes                 892/65536       17840/1310720  ( 1.4%) 
+vertexes               663/65536        7956/786432   ( 1.0%) 
+nodes                  255/65536        8160/2097152  ( 0.4%) 
+texinfos                70/16384        5040/1179648  ( 0.4%) 
+texdata                 26/8192          832/262144   ( 0.3%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       11081/0           11081/0        ( 0.0%) 
+faces                  396/65536       22176/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              274/65536       15344/3670016  ( 0.4%) 
+leaves                 263/65536        8416/2097152  ( 0.4%) 
+leaffaces              463/65536         926/131072   ( 0.7%) 
+leafbrushes            224/65536         448/131072   ( 0.3%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             2985/512000      11940/2048000  ( 0.6%) 
+edges                 1710/256000       6840/1024000  ( 0.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             41/32768         410/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           666/65536        1332/131072   ( 1.0%) 
+cubemapsamples          11/1024          176/16384    ( 1.1%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      192032/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2930/16777216 ( 0.0%) 
+entdata               [variable]        4541/4194304  ( 0.1%) 
+LDR ambient table      263/65536        1052/262144   ( 0.4%) 
+HDR ambient table      263/65536        1052/262144   ( 0.4%) 
+LDR leaf ambient       950/65536       26600/1835008  ( 1.4%) 
+HDR leaf ambient       263/65536        7364/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]          12/0        ( 0.0%) 
+static props          [variable]        5964/0        ( 0.0%) 
+static prop count       73/16384           0/0        ( 0.4%) 
+pakfile               [variable]      301573/0        ( 0.0%) 
+physics               [variable]      404832/4194304  ( 9.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1098
+Writing c:\users\zdrow\documents\vmf\2.bsp
+1 second elapsed
+
