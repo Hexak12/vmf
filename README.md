@@ -2,13 +2,13 @@
 
 <img src="https://developer.valvesoftware.com/w/images/3/34/Hammer_splash.png">
 
-This repository is a personal archive and development workspace for Source engine maps and mods (Half-Life 2, Episode One, Episode Two, and Garry's Mod).
+This repository is a personal archive and development workspace for Source engine maps and mods (Half-Life 2, Episode Two, and Garry's Mod).
 
 ### Contents
-- Map VMF/PRT/BSP sources and various mod files.
+- Map VMF/BSP sources and various mod files.
 - Development and experimental maps; many files are works-in-progress or archived experiments.
 
-### Recommended tools
+### Tools
 - <a href="https://ficool2.github.io/HammerPlusPlus-Website/download.html">Hammer++</a> — editor for creating and editing VMF files
 - <a href="https://github.com/ata4/bspsrc">BSPSource</a> — decompile BSPs to VMF
 - <a href="https://github.com/WilliamVenner/gmpublisher">gmpublisher</a> — publish maps to Garry's Mod
@@ -25,7 +25,7 @@ Most recent <b>jail</b> build included: <a href="jailhl2build3.vmf">`jailhl2buil
 
 ### Contributing / workflow notes
 - If you want to modify a BSP, decompile it with BSPSource to get a VMF, edit in Hammer++ and recompile with your preferred toolchain.
-- Prefer submitting VMF/PRT sources when possible so others can reproduce edits.
+- Prefer submitting VMF sources when possible so others can reproduce edits.
 - Open an issue or contact the maintainer with proposed changes or questions.
 
 ### Maintainer
